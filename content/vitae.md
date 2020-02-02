@@ -11,20 +11,14 @@ output: html_document
 <center>Center for Brain and Cognition, Universitat Pomepu Fabra</center>
 
 ___
-[![](../static/img/osf.png)](https://osf.io/w465d)
-[![](../static/img/github.png)](https://github.com/gongcastro)
-[![](../static/img/twitter.png)](https://twitter.com/gongcastro)
-[![](../static/img/googlescholar.png)](https://scholar.google.com/citations?hl=en&user=fHetiuQAAAAJ&view_op=list_works&gmla=AJsN-F5B_8fjd0OUBHOrctasGbp9qOEiQMLNyRxG6QmOwWqMPw2t26PY8PSRzpGd9O5S4x80UrpN1zR6bbeca5N-QiZZV2a95w)
-[![](../static/img/researchgate.png)](https://www.researchgate.net/profile/Gonzalo_Garcia-Castro)
-[![](../static/img/orcid.png)](https://orcid.org/0000-0002-8553-4209)
-[![](../static/img/linkedin.png)](https://www.linkedin.com/in/gondcastro/)
+<center>[![](../static/img/osf.png){width=50px}](https://osf.io/w465d)[![](../static/img/github.png){width=50px}](https://github.com/gongcastro)[![](../static/img/twitter.png){width=50px}](https://twitter.com/gongcastro)[![](../static/img/googlescholar.png){width=50px}](https://scholar.google.com/citations?hl=en&user=fHetiuQAAAAJ&view_op=list_works&gmla=AJsN-F5B_8fjd0OUBHOrctasGbp9qOEiQMLNyRxG6QmOwWqMPw2t26PY8PSRzpGd9O5S4x80UrpN1zR6bbeca5N-QiZZV2a95w)[![](../static/img/researchgate.png){width=50px}](https://www.researchgate.net/profile/Gonzalo_Garcia-Castro)[![](../static/img/orcid.png){width=50px}](https://orcid.org/0000-0002-8553-4209)[![](../static/img/linkedin.png){width=50px}](https://www.linkedin.com/in/gondcastro/)</center>
 
 ___
 
 
 <center>Ramón Trias Fargas 25-27, 08005 Barcelona, Spain</center>
 
-</center>[gonzalo.garciasdecastro@upf.edu](gonzalo.garciasdecastro@upf.edu)</center>
+<center>[gonzalo.garciasdecastro@upf.edu](gonzalo.garciasdecastro@upf.edu)</center>
 
 ___
 
@@ -32,20 +26,17 @@ ___
 
 <br>
 
-October 2018 - Present |
-
+October 2018 - Present
 :   **PhD, Biomedecine**; Pompeu Fabra University (Barcelona, Spain); Supervisor: Núria Sebastian-Galles.
 
 <br>
 
-October 2017 - July 2018 |
-
+October 2017 - July 2018
 :   **MSc, Neurosciences**; University of Barcelona (Barcelona, Spain). Dissertation: *Phonemic Contrast Perception: A Segmentation Study on Monolingual and Bilingual Infants*; Supervisors: Núria Sebastian-Galles and Chiara Santolin.
 
 <br>
 
-September 2013 - July 2017 |
-
+September 2013 - July 2017
 :   **BSc, Psychology**; University of Oviedo (Oviedo, Spain). Dissertation: *Effects of Environmental Enrichment on Attention, Spatial Reference Memory, and Cytochrome C Oxidase Activity*; Supervisors: Azucena Begega and Marcelino Cuesta.
 
 ___
@@ -118,24 +109,20 @@ ___
 
 # Short courses
 
-August 2018 |
-
+August 2018
 :    **Data Science: Multiple imputation in practice**, Utrecht Summer School, Utrecht University. Introduction to Multiple Imputation as a powerful tool for dealing with missing data in experimental studies.
 
 <br>
 
-August 2018 |
-
+August 2018
 :    **Data Science: Statistical Programming with R**, Utrecht Summer School, Utrecht University.
 
 <br>
 
-August 2016 |
-
+August 2016
 :    **Introduction to Neuroscience: From Molecule to Behavior**, Radboud Summer School, Radboud University Nijmegen. Hands-on training at research labs of the [Donders Institute for Brain and Cognition](http://www.ru.nl/donders/).
 
 <br>
 
-August 2016 |
-
+August 2016
 :    **How to Improve the Quality and Translatability of Preclinical Animal Studies**, Radboud Summer School, Radboud University Nijmegen. Course organized by [SYRCLE institute](www.syrcle.nl), [Radboud University Nijmegen](www.ru.nl) and [Radboud University Medical Centre](www.radboudumc.nl). Theory and hands-on experience on Systematic Reviews and Meta-Analysis in preclinical animal studies. Overview of the main software available to conduct a Meta-Analysis and basic formation on academic reading and writing.
