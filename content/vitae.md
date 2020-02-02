@@ -18,7 +18,7 @@ ___
 
 <center>Ramón Trias Fargas 25-27, 08005 Barcelona, Spain</center>
 
-<center>[gonzalo.garciasdecastro@upf.edu](gonzalo.garciasdecastro@upf.edu)</center>
+<center>[gonzalo.garciadecastro@upf.edu](gonzalo.garciasdecastro@upf.edu)</center>
 
 ___
 
