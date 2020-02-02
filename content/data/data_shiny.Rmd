@@ -1,0 +1,29 @@
+---
+output: html_document
+runtime: shiny
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# load packages
+library(DT)
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(here)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# show main table
+read_xlsx(here("content", "data", "zombies.xlsx")) %>%
+	datatable(options = list(pageLength = 30),
+                      rownames = FALSE,
+                      filter = 'top') %>%
+            formatCurrency(c("Budget", "Box"), currency = "$") %>%
+            formatString("Duration", suffix = " min.") %>%
+            formatStyle("Title", color = "white", backgroundColor = "transparent", fontWeight = "bold") %>%
+            formatStyle(c("Type", "Year", "Author", "Country", "Budget", "Box", "Duration", "Producer"),
+            			color = "white", backgroundColor = "transparent")
+```
+
