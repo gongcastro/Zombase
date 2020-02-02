@@ -12,12 +12,27 @@ ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 1
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 2
+[[menu.main]]
+    name = "Data"
+    url = "/data/"
+    weight = 3
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/gongcastro"
+    weight = 4
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/gongcastro"
+    name = "Contact"
+    url = "/"
+    weight = 5
+[[menu.main]]
+    name = "CV"
+    url = "/"
+    weight = 6
 
 [params]
     description = "Zombies, RStats, and some actual research on developmental psycholinguistics"
