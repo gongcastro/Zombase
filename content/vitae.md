@@ -1,7 +1,7 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 author: "Gonzalo García-Castro"
-date: "2/2/2020"
+date: "Updated `r format(Sys.Date(), '%B %dth, %Y')`"
 output: html_document
 ---
 
