@@ -11,7 +11,9 @@ output: html_document
 <center>Center for Brain and Cognition, Universitat Pomepu Fabra</center>
 
 ___
-<center>[![](/img/osf.png){width=50px}](https://osf.io/w465d)[![](/img/github.png){width=50px}](https://github.com/gongcastro)[![](/img/twitter.png){width=50px}](https://twitter.com/gongcastro)[![](/img/googlescholar.png){width=50px}](https://scholar.google.com/citations?hl=en&user=fHetiuQAAAAJ&view_op=list_works&gmla=AJsN-F5B_8fjd0OUBHOrctasGbp9qOEiQMLNyRxG6QmOwWqMPw2t26PY8PSRzpGd9O5S4x80UrpN1zR6bbeca5N-QiZZV2a95w)[![](/img/researchgate.png){width=50px}](https://www.researchgate.net/profile/Gonzalo_Garcia-Castro)[![](/img/orcid.png){width=50px}](https://orcid.org/0000-0002-8553-4209)[![](../static/img/linkedin.png){width=50px}](https://www.linkedin.com/in/gondcastro/)</center>
+<div width="50px">
+<center>[![](/img/osf.png)](https://osf.io/w465d)[![](/img/github.png)](https://github.com/gongcastro)[![](/img/twitter.png)](https://twitter.com/gongcastro)[![](/img/googlescholar.png)](https://scholar.google.com/citations?hl=en&user=fHetiuQAAAAJ&view_op=list_works&gmla=AJsN-F5B_8fjd0OUBHOrctasGbp9qOEiQMLNyRxG6QmOwWqMPw2t26PY8PSRzpGd9O5S4x80UrpN1zR6bbeca5N-QiZZV2a95w)[![](/img/researchgate.png)](https://www.researchgate.net/profile/Gonzalo_Garcia-Castro)[![](/img/orcid.png)](https://orcid.org/0000-0002-8553-4209)[![](../static/img/linkedin.png)](https://www.linkedin.com/in/gondcastro/)</center>
+</div>
 
 ___
 
