@@ -50,7 +50,7 @@ ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
     favicon = "favicon.ico"
 
     [params.logo]
-    url = "zombase.png"
+    url = "img/zombase.png"
     width = 50
     height = 50
     alt = "Logo"
