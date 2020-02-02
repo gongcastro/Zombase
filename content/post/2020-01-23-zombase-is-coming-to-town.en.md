@@ -11,7 +11,7 @@ images: ~
 Hi! In this first post I will tell you a bit about this project, and what to expect from it in the short and mid term.
 
 <div style="float:right;width:50%;margin:20px 20px">
-![Coolest logo I could come up with!](../../static/img/zombase.png)
+![Coolest logo I could come up with!](/img/zombase.png)
 </div>
 
 I love zombie-related material as much as I love making lists. Some time ago I started making a list of all zombie films I'd like to watch. The list kept growing and it started to become more of a database. 
