@@ -10,13 +10,12 @@ library(DT)
 library(dplyr)
 library(tidyr)
 library(readxl)
-library(here)
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 
 # show main table
-read_xlsx(here("content", "data", "zombies.xlsx")) %>%
+read_xlsx("zombies.xlsx") %>%
 	datatable(options = list(pageLength = 30),
                       rownames = FALSE,
                       filter = 'top') %>%
