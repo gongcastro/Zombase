@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #c91812;
 }
 
 a {
@@ -83,7 +83,7 @@ code {
 
 .nav-links a {
   text-decoration: none;
-  color: #111;
+  color: #c91812;
 }
 
 .nav-links a:hover {
