@@ -1,11 +1,15 @@
+/* FONTS */
+
+/* fira-sans-condensed-regular - latin */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: 'Fira Sans Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local('Merriweather'), local('Merriweather-Regular'),
-       url('../fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
-       url('../fonts/merriweather-v13-latin-regular.woff') format('woff');
+  src: local('Fira Sans Condensed Regular'), local('FiraSansCondensed-Regular'),
+       url('../fonts/fira-sans-condensed-v4-latin-regular.woff2') format('woff2'),
+       url('../fonts/fira-sans-condensed-v4-latin-regular.woff') format('woff');
 }
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;
