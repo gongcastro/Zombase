@@ -34,6 +34,10 @@ code {
   position: relative;
 }
 
+.site-header:before {
+    background: rgba(0, 0, 0, 1);
+}
+
 .header {
   padding: 20px 0;
   position: relative;
