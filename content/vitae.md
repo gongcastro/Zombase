@@ -25,17 +25,14 @@ ___
 
 # Education
 
-<br>
 
 October 2018 - Present
 :   **PhD, Biomedecine**; Pompeu Fabra University (Barcelona, Spain); Supervisor: Núria Sebastian-Galles.
 
-<br>
 
 October 2017 - July 2018
 :   **MSc, Neurosciences**; University of Barcelona (Barcelona, Spain). Dissertation: *Phonemic Contrast Perception: A Segmentation Study on Monolingual and Bilingual Infants*; Supervisors: Núria Sebastian-Galles and Chiara Santolin.
 
-<br>
 
 September 2013 - July 2017
 :   **BSc, Psychology**; University of Oviedo (Oviedo, Spain). Dissertation: *Effects of Environmental Enrichment on Attention, Spatial Reference Memory, and Cytochrome C Oxidase Activity*; Supervisors: Azucena Begega and Marcelino Cuesta.
@@ -44,15 +41,11 @@ ___
 
 # Publications
 
-
-
 ## Articles
-
 
 Sampedro-Piquero, P., Álvarez-Suárez, P., Moreno-Fernández, R., **García-Castro, G.**, Cuesta, M., Begega, A. (2018). Environmental enrichment results in both brain connectivity efficiency and selective improvement in different behavioral tasks. *Neuroscience*, *388*, 374-383. https://doi.org/10.1016/j.neuroscience.2018.07.036
 
 ## Posters
-
 
 Siow, S., **García-Castro, G.**, Sebastian-Galles, N., and Plunkett, K. (August, 2019). The impact of phonology (cognateness) on the bilingual lexicon: Parallel cross-language phonological priming. Poster presented at the Lancaster Conference on Infant and Early Child Development (Lancaster, United Kingdom).
 
@@ -82,17 +75,15 @@ ___
 
 ## Animal research
 
-<br>
 
 **Research Staff Certificate for animal research**, issued on 15/05/2018 by the *Direcció General de Polítiques Ambientals i Medi Natural*.
-
-<br>
 
 ## Programming skills
 
 * **R**: RStudio, Tidyverse, RMarkdown, formr.
 * **Matlab**: PsychToolbox-3
-* **Git/GitHub**
+* **Python**: PsychoPy
+* **Git/GitHub/Bitbucket**
 * **JASP**
 * **SPSS**
 
@@ -113,17 +104,14 @@ ___
 August 2018
 :    **Data Science: Multiple imputation in practice**, Utrecht Summer School, Utrecht University. Introduction to Multiple Imputation as a powerful tool for dealing with missing data in experimental studies.
 
-<br>
 
 August 2018
 :    **Data Science: Statistical Programming with R**, Utrecht Summer School, Utrecht University.
 
-<br>
 
 August 2016
 :    **Introduction to Neuroscience: From Molecule to Behavior**, Radboud Summer School, Radboud University Nijmegen. Hands-on training at research labs of the [Donders Institute for Brain and Cognition](http://www.ru.nl/donders/).
 
-<br>
 
 August 2016
 :    **How to Improve the Quality and Translatability of Preclinical Animal Studies**, Radboud Summer School, Radboud University Nijmegen. Course organized by [SYRCLE institute](www.syrcle.nl), [Radboud University Nijmegen](www.ru.nl) and [Radboud University Medical Centre](www.radboudumc.nl). Theory and hands-on experience on Systematic Reviews and Meta-Analysis in preclinical animal studies. Overview of the main software available to conduct a Meta-Analysis and basic formation on academic reading and writing.
