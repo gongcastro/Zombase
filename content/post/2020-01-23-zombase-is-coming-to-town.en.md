@@ -19,4 +19,4 @@ Simultaenously, I had to learn some notions of programming and statistics for wo
 
 This website will go throught major changes in the next months, as I'm still getting familiar with the RStudio-GitHub-Netlify workflow this website is built onto, so please be patient! I'll try to periodically upload nice data visualisation, reviews of zombie-material, and some notes on my actual research of my thesis at the [Center for Brain and Cognition](http://www.upf.edu/cbc) at [Universitat Pompeu Fabra](http://www.upf.edu) that mostly falls into the field of developmental psycholinguistics.
 
-Remember that nice, polite, and constructive is always more than welcome!
+Remember that nice, polite, constructive feed-back is always more than welcome!
