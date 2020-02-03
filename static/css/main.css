@@ -58,6 +58,9 @@ code {
   float: left;
   margin-top: -5px;
   transition: transform 150ms ease-out;
+  width: 50px;
+  height: 50px;
+  vertical-align: center;
 }
 
 .nav-logo:hover {
@@ -68,9 +71,6 @@ code {
   display: block;
   max-height: 60px;
   border-radius: 60%;
-  width: 50px;
-  height: 50px;
-  vertical-align: center;
 }
 
 .nav-links {
