@@ -38,9 +38,6 @@ code {
 
 .header {
   padding: 40px 0;
-  position: absolute;
-  left: 0;
-  top:0;
   background: #000000;
   border-bottom: 3px solid #8a8a8a;
 }
