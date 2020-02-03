@@ -18,25 +18,22 @@ customCSS = ["css/main.css"]
     url = "/about/"
     weight = 1
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 2
-[[menu.main]]
     name = "Data"
     url = "/data/"
-    weight = 3
+    weight = 2
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/gongcastro/Zombase"
+    weight = 3
+[[menu.main]]
+    name = "CV"
+    url = "/vitae/"
     weight = 4
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 5
-[[menu.main]]
-    name = "CV"
-    url = "/vitae/"
-    weight = 6
+
 
 [params]
     description = "Zombies, RStats, and some actual research on developmental psycholinguistics"
