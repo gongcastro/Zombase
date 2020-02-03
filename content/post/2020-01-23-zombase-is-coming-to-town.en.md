@@ -5,7 +5,8 @@ date: '2020-01-23'
 slug: zombase-is-coming-to-town
 categories: []
 tags: [info]
-images: ~
+images: "img/zombase.png"
+
 ---
 
 Hi! In this first post I will tell you a bit about this project, and what to expect from it in the short and mid term.
