@@ -7,7 +7,7 @@ output: html_document
 
 # Gonzalo Garcia-Castro
 
-<img src="/images/profile.png" width="50%" style="float:right">
+<img src="/images/profile.png" width="40%" style="float:right" margin="35px">
 
 I am a PhD student at the [**Speech Acquisition and Perception**](http://upf.com/sap) research group at the [**Center for Brain and Cognition**](http://upf.com/cbc) (Universitat Pompeu Fabra, Barcelona, Spain) that dedicates most of his time to research on developmental psycholinguistics. The focus of my research (and of most of my **great** colleages) is the intersection between developmental psychology, language acquisition, bilingualism, and psycholinguistics. In short, I study how babies learn two languages simulatenously, how this relates to other domains of their development. To do this, we design experiments in which babies' behaviour informs us about the processes involved in speech perception and word learning, among others. The techniques we use are mostly based on infant's looking behaviour; we analyse where they look in screen at while they listen to speech.
 
