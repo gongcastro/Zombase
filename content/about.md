@@ -5,7 +5,7 @@ date: "Updated `r format(Sys.Date(), '%B %dth, %Y')`"
 output: html_document
 ---
 
-# Gonzalo Garcia-Castro
+# Gonzalo García-Castro
 
 <img src="/images/profile.png" width="40%" style="float:right" margin="35px">
 
