@@ -5,7 +5,7 @@ theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
-coverImage = "/images/zombase.png"
+coverImage = "images/zombase.png"
 customCSS = ["css/main.css"]
 
 
