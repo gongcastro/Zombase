@@ -55,6 +55,7 @@ code {
 .nav-logo {
   float: left;
   margin-top: -5px;
+  zoom: 1;
   transition: transform 150ms ease-out;
   height: auto;
   vertical-align: center;
