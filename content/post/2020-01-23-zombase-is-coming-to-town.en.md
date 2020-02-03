@@ -5,13 +5,13 @@ date: '2020-01-23'
 slug: zombase-is-coming-to-town
 categories: []
 tags: [info]
-images: "img/zombase.png"
+images: "images/zombase.png"
 
 ---
 
 Hi! In this first post I will tell you a bit about this project, and what to expect from it in the short and mid term.
 
-<center><img src="/img/zombase.png" alt="Coolest logo I could come up with." width="50%" style="float:right"></center>
+<center><img src="/images/zombase.png" alt="Coolest logo I could come up with." width="50%" style="float:right"></center>
 
 I love zombie-related material as much as I love making lists. Some time ago I started making a list of all zombie films I'd like to watch. The list kept growing and it started to become more of a database. 
 
