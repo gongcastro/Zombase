@@ -130,8 +130,7 @@ code {
 .article-content a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 3px solid #CBF8DF;
-  box-shadow: inset 0 -4px 0 #CBF8DF;
+  border-bottom: 1px solid #CBF8DF;
   background: transparent;
   transition: background 150ms ease;
 }
@@ -167,7 +166,7 @@ code {
   list-style: none;
   line-height: 1.3em;
   text-align: center;
-  color: #111;
+  color: #ffffff;
 }
 
 .archive-title {
