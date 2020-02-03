@@ -93,6 +93,7 @@ code {
 .nav-links a {
   text-decoration: none;
   color: #c7120c;
+  font-size: 30px;
 }
 
 .nav-links a:hover {
