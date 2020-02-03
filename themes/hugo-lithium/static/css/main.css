@@ -12,6 +12,7 @@ body {
   -moz-font-feature-settings: "liga" on;
   background-color: #242424;
   max-width: 800px;
+  color: #000000;
 }
 
 h1,
