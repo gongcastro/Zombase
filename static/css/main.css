@@ -38,7 +38,9 @@ code {
 
 .header {
   padding: 40px 0;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top:0;
   background: #000000;
   border-bottom: 3px solid #8a8a8a;
 }
@@ -58,8 +60,7 @@ code {
   float: left;
   margin-top: -5px;
   transition: transform 150ms ease-out;
-  width: 50px;
-  height: 50px;
+  height: auto;
   vertical-align: center;
 }
 
