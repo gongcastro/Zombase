@@ -52,7 +52,7 @@ customCSS = ["css/main.css"]
 
 [params.logo]
     url = "logo.png"
-    width = 70
-    height = 70
+    width = 50
+    height = 50
     alt = "Logo"
 
