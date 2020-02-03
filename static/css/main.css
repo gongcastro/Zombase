@@ -10,6 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
+  background-color: #3b3a39;
+  color: #ffffff;
 }
 
 h1,
@@ -26,7 +28,7 @@ a {
 }
 
 code {
-  background-color: rgba(0, 0, 0, 0.00);
+  background-color: #3b3a39;
 }
 
 .wrapper {
