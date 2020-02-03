@@ -103,13 +103,13 @@ code {
 
 .article-title {
   font-size: 34px;
-  color: #222;
+  color: #c91812;
   margin: 0;
   line-height: 1.3;
 }
 
 .article-date {
-  color: #ccc;
+  color: #000000;
 }
 
 .article-duration {
@@ -120,7 +120,7 @@ code {
   font-weight: bold;
   border-radius: 3px;
   background: #bbb;
-  color: #fff
+  color: #000000
 }
 
 .article-content p {
@@ -142,7 +142,7 @@ code {
 }
 
 .article-content hr {
-  width: 150px;
+  width: 300px;
   margin: 50px auto;
   height: 1px;
   overflow: hidden;
