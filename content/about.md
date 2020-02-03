@@ -1,6 +1,8 @@
 ---
 title: "About"
-date: '2016-05-05T21:48:51-07:00'
+author: "Gonzalo García-Castro"
+date: "Updated `r format(Sys.Date(), '%B %dth, %Y')`"
+output: html_document
 ---
 
 # Gonzalo Garcia-Castro
