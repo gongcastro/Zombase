@@ -19,7 +19,7 @@ library(data.table)
 # create functions
 
 # load data
-country_list <- unique(iso3166$ISOname) # country list
+country_list <- sort(unique(iso3166$ISOname)) # alphabetical country list
 data <- fread(file = here("zombies.txt"),
 			  sep = "\t",
 			  dec = ".",
@@ -102,15 +102,10 @@ ui <- fluidPage(title = "Contribution",
 						tags$style(
 							HTML("
 							.btn {
-								background-color:#c91812;
-								color:white;
-								border-color:white;
 								font-weight:bold;
 								padding:10px;
 								font-size:150%;
-								font:liga;
-								border-radius:100%;
-								border: 5px solid white
+								border: 5px solid black
 							}
 								 "))
 					),
