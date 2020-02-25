@@ -159,7 +159,8 @@ server <- function(input, output) {
 			Producer       = input$Producer,
 			IMDBLink       = input$IMDBLink
 		)
-		googlesheets4::sheets_append(ss = "https://docs.google.com/spreadsheets/d/1fZZp9FSXt3IRqifMPbmnLaeVdKhCiXMNNweUtO9NCtk/edit#gid=0", data = contrib_data)
+		sheets_auth(email = "zombase.database@gmail.com")
+		sheets_append(ss = "https://docs.google.com/spreadsheets/d/1fZZp9FSXt3IRqifMPbmnLaeVdKhCiXMNNweUtO9NCtk/edit#gid=0", data = contrib_data)
 		shinyalert("Saved", "Thank you for you contribution!", type = "success")
 		
 
