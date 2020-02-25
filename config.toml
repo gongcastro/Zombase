@@ -55,7 +55,7 @@ customCSS = ["css/main.css"]
     favicon = "favicon.ico"
 
 [params.logo]
-    url = "logo.png"
+    url = "logo_big.png"
     width = 55
     height = 55
     alt = "Logo"
