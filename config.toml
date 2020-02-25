@@ -22,17 +22,21 @@ customCSS = ["css/main.css"]
     url = "/data/"
     weight = 2
 [[menu.main]]
+    name = "Contribute!"
+    url = "/contribute/"
+    weight = 3
+[[menu.main]]
     name = "GitHub"
     url = "https://github.com/gongcastro/Zombase"
-    weight = 3
+    weight = 4
 [[menu.main]]
     name = "CV"
     url = "/vitae/"
-    weight = 4
+    weight = 5
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
 
 
 [params]
