@@ -22,7 +22,7 @@ customCSS = ["css/main.css"]
     url = "/data/"
     weight = 2
 [[menu.main]]
-    name = "Contribute!"
+    name = "Contribute"
     url = "/contribute/"
     weight = 3
 [[menu.main]]
