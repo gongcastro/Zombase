@@ -1,31 +1,31 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+#### data: show data ##############################
+# Gonzalo García-Castro, zombase.database@gmail.com
 
+#### set up #######################################
 # load packages
 library(shiny)
 library(DT)
 library(dplyr)
-library(data.table)
-# Define UI for application that draws a histogram
+library(googlesheets4)
+
+# provide credentials
+options(
+	gargle_oauth_cache = ".secrets",
+	gargle_oauth_email = "zombase.database@gmail.com"
+)
+sheets_auth(cache = ".secrets/", email = "zombase.database@gmail.com")
+
+#### import data ##############################
+data <- sheets_read("https://docs.google.com/spreadsheets/d/1p-DpOQABFoB-u9vmDr_-VxoGeJkGTY54eqDHf3-LPtQ/edit#gid=1036030952", sheet = "data")
+
+#### define user interface
 ui <- fluidPage(DT::dataTableOutput("table"))
 
-# Define server logic required to draw a histogram
+#### devine server logic
 server <- function(input, output) {
 	
 	output$table <- DT::renderDataTable(
-		fread(file = "zombies.txt",
-			  sep = "\t",
-			  dec = ".",
-			  header = TRUE,
-			  na.strings = "NA",
-			  stringsAsFactors = FALSE,
-			  verbose = FALSE) %>%
+		data %>%
 			datatable(rownames = FALSE, width = "2000px", height = "4000px", style = "bootstrap") %>%
 			formatStyle(columns = "Title",
 						fontWeight = "bold", backgroundColor = "white") %>%
@@ -40,5 +40,5 @@ server <- function(input, output) {
 	)
 }
 
-# Run the application 
+#### run application
 shinyApp(ui = ui, server = server)

@@ -1,4 +1,5 @@
-# contribute to the database
+#### data: # contribute to the database ############
+# Gonzalo García-Castro, zombase.database@gmail.com
 
 #### set up ######################################
 
@@ -9,6 +10,7 @@ library(shinyalert)
 library(DT)
 library(dplyr)
 library(maps)
+library(googledrive)
 library(rlang)
 library(googlesheets4)
 library(lubridate)
@@ -16,17 +18,18 @@ library(here)
 library(stringr)
 library(data.table)
 
-# create functions
+# provide credentials
+options(
+	gargle_oauth_cache = ".secrets",
+	gargle_oauth_email = "zombase.database@gmail.com"
+)
+sheets_auth(cache = ".secrets/",
+			email = "zombase.database@gmail.com",
+			scopes = "https://www.googleapis.com/auth/spreadsheets")
 
-# load data
+#### import data #################################
 country_list <- sort(unique(iso3166$ISOname)) # alphabetical country list
-data <- fread(file = here("zombies.txt"),
-			  sep = "\t",
-			  dec = ".",
-			  header = TRUE,
-			  na.strings = "NA",
-			  stringsAsFactors = FALSE,
-			  verbose = FALSE)
+data <- sheets_read("1p-DpOQABFoB-u9vmDr_-VxoGeJkGTY54eqDHf3-LPtQ", sheet = "data")
 
 #### user interface ##############################
 ui <- fluidPage(title = "Contribution",
@@ -128,8 +131,8 @@ server <- function(input, output) {
 	
 	output$data <- DT::renderDataTable({
 		data %>%
-			filter(str_detect(string = Title, pattern = fixed(input$Title, ignore_case = TRUE)) |
-				   	str_detect(string = Author, pattern = fixed(input$Author, ignore_case = TRUE))) %>%
+			filter(str_detect(string = Title, pattern = fixed(ifelse(is.null(input$ContribEmail), "", input$ContribEmail), ignore_case = TRUE)) |
+				   	str_detect(string = Author, pattern = fixed(ifelse(is.null(input$Author), "", input$Author), ignore_case = TRUE))) %>%
 			datatable(rownames = FALSE, width = "2000px", height = "4000px", style = "bootstrap") %>%
 			formatStyle(columns = "Title",
 						fontWeight = "bold", backgroundColor = "white") %>%
@@ -146,20 +149,19 @@ server <- function(input, output) {
 	observeEvent(input$send, {
 		contrib_data <- data.frame(
 			ContribDate    = now(),
-			ContribEmail   = input$ContribEmail,
-			ContribCountry = input$ContribCountry,
-			Title          = input$Title,
-			Date           = input$Date,
-			Country        = input$Country,
-			Author         = input$Author,
-			Type           = input$Type,
-			Budget         = input$Budget,
-			Box            = input$Box,
-			Duration       = input$Duration,
-			Producer       = input$Producer,
-			IMDBLink       = input$IMDBLink
+			ContribEmail   = ifelse(is.null(input$ContribEmail), NA_integer_, input$ContribEmail),
+			ContribCountry = ifelse(is.null(input$ContribCountry), NA_integer_, input$ContribCountry),
+			Title          = ifelse(is.null(input$Title), NA_integer_, input$Title),
+			Type           = ifelse(is.null(input$Type), NA_integer_, input$Type),
+			Date           = ifelse(is.null(input$Date), NA_integer_, input$Date),
+			Author         = ifelse(is.null(input$Author), NA_integer_, input$Author),
+			Country        = ifelse(is.null(input$Country), NA_integer_, input$Country),
+			Budget         = ifelse(is.null(input$Budget), NA_integer_, input$Budget),
+			Box            = ifelse(is.null(input$Box), NA_integer_, input$Box),
+			Duration       = ifelse(is.null(input$Duration), NA_integer_, input$Duration),
+			Producer       = ifelse(is.null(input$Producer), NA_integer_, input$Producer),
+			IMDBLink       = ifelse(is.null(input$IMDBLink), NA_integer_, input$IMDBLink)
 		)
-		sheets_auth(email = "zombase.database@gmail.com")
 		sheets_append(ss = "https://docs.google.com/spreadsheets/d/1fZZp9FSXt3IRqifMPbmnLaeVdKhCiXMNNweUtO9NCtk/edit#gid=0", data = contrib_data)
 		shinyalert("Saved", "Thank you for you contribution!", type = "success")
 		
