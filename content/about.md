@@ -23,3 +23,13 @@ I learned a lot about programming during my MSc. However, most of what I learnt 
 
 I have many things in mind to do with `Zombase`, but for now I'll focus on releasing some of the coolest analyses and plots^[God, I love plots] I have come up with. I'll try to implement more functionalities as I learn more. Please, enjoy and waste as long as you can watching wacky zombie films that make you learn nothing!
 
+The workflow of this website depends on software and platforms I am still learning to use, which are mainly:
+
+R <i class="fab fa-r-project"></i>/RStudio (especially the `blogdown` package)
+Markdown
+CSS
+HTML
+Git/GitHub <i class="fab fa-github"></i>
+Netlify
+
+
