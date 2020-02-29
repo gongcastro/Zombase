@@ -6,7 +6,7 @@ slug: zombase-is-coming-to-town
 categories: []
 tags: [info]
 publishdate: '2020-01-10'
-draft: true
+draft: false
 featuredImage: "images/zombase.png"
 images: "images/zombase.png"
 
