@@ -25,6 +25,6 @@ I have many things in mind to do with `Zombase`, but for now I'll focus on relea
 
 The workflow of this website depends on software and platforms I am still learning to use, which are mainly:
 
-<center><img src="/images/r-project.svg" width="100" style="float:right" margin="35px"> / RStudio <img src="/images/rstudio.png" width="100" style="float:right" margin="35px"><img src="/images/markdown.svg" width="100" style="float:right" margin="35px"><img src="/images/css3.svg" width="100" style="float:right" margin="35px"><img src="/images/html5.svg" width="100" style="float:right" margin="35px"><img src="/images/git.svg" width="100" style="float:right" margin="35px"><img src="/images/github.svg" width="100" style="float:right" margin="35px"><img src="/images/netlify.png" width="100" style="float:right" margin="35px"></center>
+<center><img src="" width="100" style="float:right" margin="35px"> / RStudio <img src="/images/rstudio.png" width="100" style="float:right" margin="35px"><img src="/images/markdown.svg" width="100" style="float:right" margin="35px"><img src="/images/css3.svg" width="100" style="float:right" margin="35px"><img src="/images/html5.svg" width="100" style="float:right" margin="35px"><img src="/images/git.svg" width="100" style="float:right" margin="35px"><img src="/images/github.svg" width="100" style="float:right" margin="35px"><img src="/images/netlify.png" width="100" style="float:right" margin="35px"></center>
 
 
