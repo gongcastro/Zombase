@@ -27,8 +27,8 @@ The workflow of this website depends on software and platforms I am still learni
 
 R <i class="fab fa-r-project"></i> / RStudio (especially the `blogdown` package)
 Markdown <i class="fab fa-markdown"></i>
-CSS
-HTML <i class="fab fa-html5"></i>
+CSS3 <i class="fab fa-css3"></i>
+HTML5 <i class="fab fa-html5"></i>
 Git https://fontawesome.com/icons/git?style=brands / GitHub <i class="fab fa-github"></i>
 Netlify
 

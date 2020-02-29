@@ -18,9 +18,3 @@ output: html_document
 ![<i class="fas fa-envelope" alt="E-mail"></i>](zombase.database@upf.edu)
 
 ![<i class="fab fa-twitter" alt="Twitter></i>](https://twitter.com/gongcastro)
-
-**Twitter**: @gongcastro
-
-
-
-<i class="fab fa-mail-awesome"></i>
