@@ -22,9 +22,3 @@ After a very slow start, three attempts, and a lot of frustration, *R* started t
 I learned a lot about programming during my MSc. However, most of what I learnt came from something different: the intersection of statistics, wacky zombie films, and lists. As you can have already guessed, the outcome is a database of zombie films. I use this database to learn new things about programming, at the same time I at my disposal a tidy (and reproducible!) database with all zombie movies I was able to find^[I try to update the list every month.]. At some point I decided that such a geeky delight should not be kept in private^[Actually, I had told about it to everyone I had ever crossed two words with.], so `Zombase` is the result of it, and this is its story.
 
 I have many things in mind to do with `Zombase`, but for now I'll focus on releasing some of the coolest analyses and plots^[God, I love plots] I have come up with. I'll try to implement more functionalities as I learn more. Please, enjoy and waste as long as you can watching wacky zombie films that make you learn nothing!
-
-The workflow of this website depends on software and platforms I am still learning to use, which are mainly:
-
-<div><center><img src="/images/rstudio.png" width="90" style="float:right" margin="35px" alt="RStudio"><img src="/images/markdown.svg" width="90" style="float:right" margin="35px" alt="Markdown"><img src="/images/css3.svg" width="90" style="float:right" margin="35px" alt="CSS3"><img src="/images/html5.svg" width="90" style="float:right" margin="35px" alt="HTML5"><img src="/images/git.svg" width="90" style="float:right" margin="35px" alt="Git"><img src="/images/github.svg" width="90" style="float:right" margin="35px" alt="GitHub"><img src="/images/netlify.png" width="90" style="float:right" margin="35px" alt="Netlify"></center></div>
-
-
