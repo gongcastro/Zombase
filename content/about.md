@@ -29,7 +29,8 @@ The workflow of this website depends on software and platforms I am still learni
 * Markdown <i class="fab fa-markdown"></i>
 * CSS3 <i class="fab fa-css3"></i>
 * HTML5 <i class="fab fa-html5"></i>
-* Git <i class="fab fa-git"></i> / GitHub <i class="fab fa-github"></i>
+* Git <img src="/images/git-brands.svg" width="40%" style="float:right" margin="35px">
+ / GitHub <i class="fab fa-github"></i>
 * Netlify
 
 
