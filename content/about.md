@@ -25,12 +25,13 @@ I have many things in mind to do with `Zombase`, but for now I'll focus on relea
 
 The workflow of this website depends on software and platforms I am still learning to use, which are mainly:
 
-* R <i class="fab fa-r-project"></i> / RStudio (especially the `blogdown` package)
-* Markdown <i class="fab fa-markdown"></i>
-* CSS3 <i class="fab fa-css3"></i>
-* HTML5 <i class="fab fa-html5"></i>
-* Git <img src="/images/git-brands.svg" width="40%" style="float:right" margin="35px">
- / GitHub <i class="fab fa-github"></i>
-* Netlify
+* R <img src="/images/r-project.svg" width="40%" style="float:right" margin="35px"> / RStudio <img src="/images/rstudio.png" width="40%" style="float:right" margin="35px">
+ (especially the `blogdown` package)
+* Markdown <img src="/images/markdown.svg" width="40%" style="float:right" margin="35px">
+* CSS3 <img src="/images/css3.svg" width="40%" style="float:right" margin="35px">
+* HTML5 <img src="/images/html5.svg" width="40%" style="float:right" margin="35px">
+* Git <img src="/images/git.svg" width="40%" style="float:right" margin="35px">
+ / GitHub <img src="/images/github.svg" width="40%" style="float:right" margin="35px">
+* Netlify <img src="/images/netlify.png" width="40%" style="float:right" margin="35px">
 
 
