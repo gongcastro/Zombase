@@ -7,8 +7,6 @@ output: html_document
 
 # Get in touch!
 
-<img src="/images/profile.png" width="40%" margin="35px">
-
 <a href="https://www.imdb.com/user/ur114211961/?ref_=login"><img src="/images/imdb.svg" width="20" style="float:right" margin="35px"</a>
 
 
