@@ -25,11 +25,11 @@ I have many things in mind to do with `Zombase`, but for now I'll focus on relea
 
 The workflow of this website depends on software and platforms I am still learning to use, which are mainly:
 
-R <i class="fab fa-r-project"></i> / RStudio (especially the `blogdown` package)
-Markdown <i class="fab fa-markdown"></i>
-CSS3 <i class="fab fa-css3"></i>
-HTML5 <i class="fab fa-html5"></i>
-Git https://fontawesome.com/icons/git?style=brands / GitHub <i class="fab fa-github"></i>
-Netlify
+* R <i class="fab fa-r-project"></i> / RStudio (especially the `blogdown` package)
+* Markdown <i class="fab fa-markdown"></i>
+* CSS3 <i class="fab fa-css3"></i>
+* HTML5 <i class="fab fa-html5"></i>
+* Git <i class="fab fa-git"></i> / GitHub <i class="fab fa-github"></i>
+* Netlify
 
 
