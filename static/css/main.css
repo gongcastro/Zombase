@@ -1,7 +1,7 @@
 html,
 
 .main-content-wrap{
-    max-width: 2000px
+    max-width: 50px
 }
 
 
@@ -15,7 +15,7 @@ body {
   -moz-font-feature-settings: "liga" on;
   background-color: #262626;
   color: #ffffff;
-  max-width: 1000px;
+  max-width: 2000px;
 
 }
 
