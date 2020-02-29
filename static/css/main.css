@@ -1,4 +1,9 @@
 html,
+
+.main-content-wrap{
+    max-width: 1500px
+}
+
 body {
   margin: 0;
   padding: 0;
