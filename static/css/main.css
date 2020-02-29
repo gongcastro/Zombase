@@ -1,10 +1,11 @@
 html,
 
+/* this changes main aspect of website*/
 .main-content-wrap{
-    max-width: 50px
+    max-width: 1000px
 }
 
-
+/* this changes main aspect of website*/
 body {
   margin: 0;
   padding: 0;
