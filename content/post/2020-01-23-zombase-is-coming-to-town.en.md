@@ -4,7 +4,7 @@ author: Gonzalo Garcia-Castro
 date: '2020-01-23'
 slug: zombase-is-coming-to-town
 categories: []
-tags: [info]
+tags: [blogpost, Zombase]
 publishdate: '2020-03-10'
 draft: false
 featuredImage: "images/zombase.png"
