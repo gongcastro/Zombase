@@ -18,7 +18,7 @@ customCSS = ["css/main.css"]
     url = "/about/"
     weight = 1
 [[menu.main]]
-    name = <i class="fas fa-database"></i>
+    name = "Data"
     url = "/data/"
     weight = 2
 [[menu.main]]
