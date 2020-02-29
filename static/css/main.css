@@ -18,7 +18,7 @@ body {
   -moz-font-feature-settings: "liga" on;
   background-color: #262626;
   color: #ffffff;
-  max-width: 1000px;
+  max-width: 700;
 
 }
 
@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
   color: #c91812;
-  max-width: 1000px;
+  max-width: 700;
 }
 
 a {
