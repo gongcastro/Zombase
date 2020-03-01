@@ -46,6 +46,10 @@ code {
   max-width: 2000px;
 }
 
+
+/* HEADER SECTIONS*/
+
+/* header rectangle*/
 .header {
   padding: 40px 0;
   background: #000000;
@@ -53,15 +57,14 @@ code {
   max-width: 100%;
 }
 
-/* HEADER SECTIONS*/
+
 .nav {
   height: 40px;	
-  max-width: 800px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 20px;
-  font-size: 30px;
+  font-size: 50px;
   text-align: right;
-  max-width: 2000px;
 }
 
 /* main logo */
