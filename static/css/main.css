@@ -78,9 +78,11 @@ code {
 }
 
 .nav-logo img {
-  display: block;
-  max-height: 60px;
-  border-radius: 60%;
+	width: 100px;
+	height: 100px;
+	display: block;
+	max-height: 60px;
+	border-radius: 60%;
 }
 
 .nav-links {
@@ -247,7 +249,7 @@ code {
 
 .footer-links a:hover,
 .footer-links a:focus {
-  color: #222;
+  color: #ffffff;
 }
 
 .footer-links li::before {
