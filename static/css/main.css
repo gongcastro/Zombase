@@ -8,7 +8,7 @@ html,
 /* this changes main aspect of website*/
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px;
   position: relative;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
