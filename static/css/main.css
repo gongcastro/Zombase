@@ -18,7 +18,6 @@ body {
   background-color: #262626;
   color: #ffffff;
   max-width: 100%;
-
 }
 
 h1,
@@ -33,6 +32,10 @@ h6 {
 
 a {
   outline: none;
+}
+
+p {
+  max-width: 1000px;
 }
 
 code {
