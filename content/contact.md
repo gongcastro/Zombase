@@ -14,6 +14,9 @@ output: html_document
 
 * E-mail <a href="mailto:zombase.database@upf.edu?"><img src="/images/envelope.svg" width="15"></a>: [zombase.database@gmail.com](mailto:zombase.database@upf.edu?)
 * Twitter <a href="https://twitter.com/gongcastro"><img src="/images/twitter.svg" width="15"></a>: @gongcastro
+
+<a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 * GitHub <ahref="https://github.com/gongcastro/"><img src="/images/github.svg" width="15" color:"white"></a>: gongcastro
 * IMDB <a href="https://www.imdb.com/user/ur114211961/?ref_=login"><img src="/images/imdb.svg" width="15"></a>: Zombase
 
