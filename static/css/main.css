@@ -74,12 +74,13 @@ code {
 }
 
 .nav-logo:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .nav-logo img {
-	width: 100px;
-	height: 100px;
+	margin: 50%;
+	width: 150px;
+	height: 150px;
 	display: block;
 	max-height: 60px;
 	border-radius: 60%;
