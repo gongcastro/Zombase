@@ -1,11 +1,11 @@
-baseurl = "https://zombase.netlify.com/"
+baseurl = "https://zombdata.netlify.com/"
 languageCode = "en-us"
-title = "Zombase"
+title = "Zombdata"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
-coverImage = "images/zombase.png"
+coverImage = "images/zombdata.png"
 customCSS = ["css/main.css"]
 
 
@@ -27,7 +27,7 @@ customCSS = ["css/main.css"]
     weight = 3
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/gongcastro/Zombase"
+    url = "https://github.com/gongcastro/Zombdata"
     weight = 4
 [[menu.main]]
     name = "CV"
@@ -55,7 +55,7 @@ customCSS = ["css/main.css"]
     favicon = "favicon.ico"
 
 [params.logo]
-    url = "logo_big.png"
+    url = "logo.png"
     width = 55
     height = 55
     alt = "Logo"
