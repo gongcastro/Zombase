@@ -74,11 +74,11 @@ code {
 }
 
 .nav-logo:hover {
-  transform: scale(1.5);
+  transform: scale(1);
 }
 
 .nav-logo img {
-	margin: 50%;
+	margin-left: 25%;
 	width: 150px;
 	height: 150px;
 	display: block;
