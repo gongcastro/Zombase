@@ -107,6 +107,7 @@ code {
 
 .nav-links a:hover {
   color: #ffffff;
+  transform: scale(1.15);
 }
 
 .content {
