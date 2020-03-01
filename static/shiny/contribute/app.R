@@ -1,5 +1,5 @@
-#### data: # contribute to the database ############
-# Gonzalo García-Castro, zombase.database@gmail.com
+####  contribute to the database ############
+# Gonzalo García-Castro, zombdata@gmail.com
 
 #### set up ######################################
 
@@ -21,15 +21,19 @@ library(data.table)
 # provide credentials
 options(
 	gargle_oauth_cache = ".secrets",
-	gargle_oauth_email = "zombase.database@gmail.com"
+	gargle_oauth_email = "zombdata@gmail.com"
 )
-sheets_auth(cache = ".secrets/",
-			email = "zombase.database@gmail.com",
-			scopes = "https://www.googleapis.com/auth/spreadsheets")
+
+sheets_auth(
+	token = readRDS("google_token.rds"),
+	cache = ".secrets/",
+	email = "zombdata@gmail.com",
+	scopes = "https://www.googleapis.com/auth/spreadsheets"
+)
 
 #### import data #################################
 country_list <- sort(unique(iso3166$ISOname)) # alphabetical country list
-data <- sheets_read("1p-DpOQABFoB-u9vmDr_-VxoGeJkGTY54eqDHf3-LPtQ", sheet = "data")
+data <- sheets_read("1NScfQetZxxVcX5hlrTU-37yd-Pdm86As0f6q78884Z8", sheet = "Data")
 
 #### user interface ##############################
 ui <- fluidPage(title = "Contribution",
@@ -101,17 +105,6 @@ ui <- fluidPage(title = "Contribution",
 						   		  label = "Producer",
 						   		  value = "")
 					),
-					tags$head(
-						tags$style(
-							HTML("
-							.btn {
-								font-weight:bold;
-								padding:10px;
-								font-size:150%;
-								border: 5px solid black
-							}
-								 "))
-					),
 					useShinyalert(),
 					column(3,
 						actionButton("send", "Send contribution"),
@@ -162,10 +155,9 @@ server <- function(input, output) {
 			Producer       = ifelse(is.null(input$Producer), NA_integer_, input$Producer),
 			IMDBLink       = ifelse(is.null(input$IMDBLink), NA_integer_, input$IMDBLink)
 		)
-		sheets_append(ss = "https://docs.google.com/spreadsheets/d/1fZZp9FSXt3IRqifMPbmnLaeVdKhCiXMNNweUtO9NCtk/edit#gid=0", data = contrib_data)
+		sheets_append(ss = "1XHYJN8jo2rAoHwzG1GHQRbWvmhwwGxL3q89yVmlStw0", data = contrib_data)
 		shinyalert("Saved", "Thank you for you contribution!", type = "success")
 		
-
 	})
 
 }

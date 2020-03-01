@@ -1,5 +1,5 @@
 #### data: show data ##############################
-# Gonzalo García-Castro, zombase.database@gmail.com
+# Gonzalo García-Castro, zombdata@gmail.com
 
 #### set up #######################################
 # load packages
@@ -11,12 +11,18 @@ library(googlesheets4)
 # provide credentials
 options(
 	gargle_oauth_cache = ".secrets",
-	gargle_oauth_email = "zombase.database@gmail.com"
+	gargle_oauth_email = "zombdata@gmail.com"
 )
-sheets_auth(cache = ".secrets/", email = "zombase.database@gmail.com")
+
+sheets_auth(
+	token = readRDS("google_token.rds"),
+	cache = ".secrets/",
+	email = "zombdata@gmail.com",
+	scopes = "https://www.googleapis.com/auth/spreadsheets"
+)
 
 #### import data ##############################
-data <- sheets_read("https://docs.google.com/spreadsheets/d/1p-DpOQABFoB-u9vmDr_-VxoGeJkGTY54eqDHf3-LPtQ/edit#gid=1036030952", sheet = "data")
+data <- sheets_read("1NScfQetZxxVcX5hlrTU-37yd-Pdm86As0f6q78884Z8", sheet = "Data")
 
 #### define user interface
 ui <- fluidPage(DT::dataTableOutput("table"))
