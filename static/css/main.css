@@ -50,7 +50,7 @@ code {
   padding: 40px 0;
   background: #000000;
   border-bottom: 3px solid #8a8a8a;
-  max-width: 2000px;
+  max-width: 100%;
 }
 
 /* HEADER SECTIONS*/
