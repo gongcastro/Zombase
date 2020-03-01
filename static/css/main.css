@@ -64,8 +64,9 @@ code {
   max-width: 2000px;
 }
 
+/* main logo */
 .nav-logo {
-  float: left;
+  float: center;
   margin-top: -5px;
   zoom: 1;
   transition: transform 150ms ease-out;
@@ -79,9 +80,8 @@ code {
 
 .nav-logo img {
 	margin-left: 25%;
-	padding-bottom: 25%;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	display: block;
 	max-height: 60px;
 	border-radius: 60%;
