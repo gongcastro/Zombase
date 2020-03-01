@@ -91,7 +91,6 @@ ___
 
 # Languages
 
-<br>
 
 * Spanish (native speaker)
 * English: C1
