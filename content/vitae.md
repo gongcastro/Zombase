@@ -41,37 +41,37 @@ ___
 
 ## Articles
 
-<p class="hangingindent">Sampedro-Piquero, P., Álvarez-Suárez, P., Moreno-Fernández, R., **García-Castro, G.**, Cuesta, M., Begega, A. (2018). Environmental enrichment results in both brain connectivity efficiency and selective improvement in different behavioral tasks. *Neuroscience*, *388*, 374-383. https://doi.org/10.1016/j.neuroscience.2018.07.036</p>
+Sampedro-Piquero, P., Álvarez-Suárez, P., Moreno-Fernández, R., **García-Castro, G.**, Cuesta, M., Begega, A. (2018). Environmental enrichment results in both brain connectivity efficiency and selective improvement in different behavioral tasks. *Neuroscience*, *388*, 374-383. https://doi.org/10.1016/j.neuroscience.2018.07.036
 
 ## Preprints
 
-<p class="hangingindent">Santolin, C., **García-Castro, G.**, Zettersten, M., Sebastian-Galles, N., & Saffran, J. (2020, March 4). Experience with research paradigms relates to infants' direction of preference. https://doi.org/10.31234/osf.io/xgvbh</p>
+Santolin, C., **García-Castro, G.**, Zettersten, M., Sebastian-Galles, N., & Saffran, J. (2020, March 4). Experience with research paradigms relates to infants' direction of preference. https://doi.org/10.31234/osf.io/xgvbh
 
 ## Posters
 
-<p class="hangingindent">Siow, S., **García-Castro, G.**, Sebastian-Galles, N., and Plunkett, K. (August, 2019). The impact of phonology (cognateness) on the bilingual lexicon: Parallel cross-language phonological priming. Poster presented at the Lancaster Conference on Infant and Early Child Development (Lancaster, United Kingdom).</p>
+Siow, S., **García-Castro, G.**, Sebastian-Galles, N., and Plunkett, K. (August, 2019). The impact of phonology (cognateness) on the bilingual lexicon: Parallel cross-language phonological priming. Poster presented at the Lancaster Conference on Infant and Early Child Development (Lancaster, United Kingdom).
 
-**García-Castro, G.**, Marimon, M., Santolin, C., and Sebastian-Galles, N. (June, 2019). Encoding new word forms when contrastive phonemes are interchanged: A preliminary study on 8-month-old infants. Poster presented at the Workshop in Infant Language Development (Potsdam, Germany). https://doi.org/10.17605/OSF.IO/GYKUH</p>
+**García-Castro, G.**, Marimon, M., Santolin, C., and Sebastian-Galles, N. (June, 2019). Encoding new word forms when contrastive phonemes are interchanged: A preliminary study on 8-month-old infants. Poster presented at the Workshop in Infant Language Development (Potsdam, Germany). https://doi.org/10.17605/OSF.IO/GYKUH
 
-**García-Castro, G.**, Álvarez-Suárez, P., García-Abad, N., Cuesta, M., and Begega, A. (June, 2017). Pro-cognitive effects of environmental enrichment on attention and spatial memory: hippocampal metabolic activity in a Wistar rat model. Poster presented at the 4th International Congress  on Health and Aging Research (Murcia, Spain).</p>
+**García-Castro, G.**, Álvarez-Suárez, P., García-Abad, N., Cuesta, M., and Begega, A. (June, 2017). Pro-cognitive effects of environmental enrichment on attention and spatial memory: hippocampal metabolic activity in a Wistar rat model. Poster presented at the 4th International Congress  on Health and Aging Research (Murcia, Spain).
 
-<p class="hangingindent">García-Abad, N., Santirso, M., **García-Castro, G.**, and Álvarez-Suárez, P. (June, 2017). Efectos del omega-3 en las redes implicadas en la memoria de trabajo espacial en ratas Wistar. Poster presented at the 3rd National Congress of Psychology (Oviedo, Spain)</p>
+García-Abad, N., Santirso, M., **García-Castro, G.**, and Álvarez-Suárez, P. (June, 2017). Efectos del omega-3 en las redes implicadas en la memoria de trabajo espacial en ratas Wistar. Poster presented at the 3rd National Congress of Psychology (Oviedo, Spain)
 
 ## Other contributions
 
 ### Scientific dissemination
 
-<p class="hangingindent">Zacharaki, K., **García-Castro, G.** (2019, October). "Descubriendo la mente de los bebés" Talk presented at 13a Festa de la Ciència, Barcelona, Spain. [[Link]](https://www.barcelona.cat/barcelonaciencia/ca/activitat/descobrint-la-ment-dels-nadons?edicionode=3402) [[Video]](https://youtu.be/jCOW2WhUiBs)</p>
+Zacharaki, K., **García-Castro, G.** (2019, October). "Descubriendo la mente de los bebés" Talk presented at 13a Festa de la Ciència, Barcelona, Spain. [[Link]](https://www.barcelona.cat/barcelonaciencia/ca/activitat/descobrint-la-ment-dels-nadons?edicionode=3402) [[Video]](https://youtu.be/jCOW2WhUiBs)
 
-<p class="hangingindent">**García-Castro, G.**, Avila-Varela (2019, October). "Estudiando la mente de los bebés: Desde el lenguaje hasta la lógica" Talk presented at Centre Cívic, Barcelona, Spain. [[Link]](https://www.barcelona.cat/barcelonaciencia/ca/activitat/descobrint-la-ment-dels-nadons?edicionode=3402) [[Video]](https://youtu.be/jCOW2WhUiBs))</p>
+**García-Castro, G.**, Avila-Varela (2019, October). "Estudiando la mente de los bebés: Desde el lenguaje hasta la lógica" Talk presented at Centre Cívic, Barcelona, Spain. [[Link]](https://www.barcelona.cat/barcelonaciencia/ca/activitat/descobrint-la-ment-dels-nadons?edicionode=3402) [[Video]](https://youtu.be/jCOW2WhUiBs))
 
-</p>
+
 
 ### Repositories
 
-<p class="hangingindent">**García-Castro, G.**, Santolin, C., Marimon, M., and Sebastian-Galles, N. (2019, October 22th). Segmentation: Catalan and Spanish natural speech segmentation at 8 months of age. https://doi.org/10.17605/OSF.IO/42GUP)</p>
+**García-Castro, G.**, Santolin, C., Marimon, M., and Sebastian-Galles, N. (2019, October 22th). Segmentation: Catalan and Spanish natural speech segmentation at 8 months of age. https://doi.org/10.17605/OSF.IO/42GUP)
 
-<p class="hangingindent">Santolin, C., **García-Castro, G.**, Zettersten, M., Sebastian-Galles, N., & Saffran, J. (2020, March 5). Flip: Experience with research paradigms relates to infants’ direction of preference. https://doi.org/10.17605/OSF.IO/G95UB</p>
+Santolin, C., **García-Castro, G.**, Zettersten, M., Sebastian-Galles, N., & Saffran, J. (2020, March 5). Flip: Experience with research paradigms relates to infants’ direction of preference. https://doi.org/10.17605/OSF.IO/G95UB
 
 ___
 
