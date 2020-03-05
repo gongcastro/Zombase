@@ -12,7 +12,7 @@ output: html_document
 
 ___
 
-<center>[![](/images/osf.png)](https://osf.io/w465d)[![](/images/github.png)](https://github.com/gongcastro)[![](/images/twitter.png)](https://twitter.com/gongcastro)[![](/images/googlescholar.png)](https://scholar.google.com/citations?hl=en&user=fHetiuQAAAAJ&view_op=list_works&gmla=AJsN-F5B_8fjd0OUBHOrctasGbp9qOEiQMLNyRxG6QmOwWqMPw2t26PY8PSRzpGd9O5S4x80UrpN1zR6bbeca5N-QiZZV2a95w)[![](/images/researchgate.png)](https://www.researchgate.net/profile/Gonzalo_Garcia-Castro)[![](/images/orcid.png)](https://orcid.org/0000-0002-8553-4209)[![](../static/images/psyarxiv.png)](https://osf.io/myprojects/#preprints)[![](../static/images/linkedin.png)](https://www.linkedin.com/in/gondcastro/)</center>
+<center>[![](/images/osf.png)](https://osf.io/w465d)[![](/images/github.png)](https://github.com/gongcastro)[![](/images/twitter.png)](https://twitter.com/gongcastro)[![](/images/googlescholar.png)](https://scholar.google.com/citations?hl=en&user=fHetiuQAAAAJ&view_op=list_works&gmla=AJsN-F5B_8fjd0OUBHOrctasGbp9qOEiQMLNyRxG6QmOwWqMPw2t26PY8PSRzpGd9O5S4x80UrpN1zR6bbeca5N-QiZZV2a95w)[![](/images/researchgate.png)](https://www.researchgate.net/profile/Gonzalo_Garcia-Castro)[![](/images/orcid.png)](https://orcid.org/0000-0002-8553-4209)[![](/images/psyarxiv.png)](https://osf.io/myprojects/#preprints)[![](/images/linkedin.png)](https://www.linkedin.com/in/gondcastro/)</center>
 
 
 <center>Ramón Trias Fargas 25-27, 08005 Barcelona, Spain</center>
