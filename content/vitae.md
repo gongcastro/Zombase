@@ -6,9 +6,9 @@ output: html_document
 ---
 
 
-<center>PhD student in Biomedicine</center>
+<center>**PhD student in Biomedicine**</center>
 
-<center>Center for Brain and Cognition, Universitat Pompeu Fabra</center>
+<center>**Center for Brain and Cognition, Universitat Pompeu Fabra**</center>
 
 ___
 
