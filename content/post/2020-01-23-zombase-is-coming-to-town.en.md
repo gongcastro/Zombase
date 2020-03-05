@@ -8,7 +8,7 @@ tags: [blogpost, Zombdata]
 publishdate: '2020-03-04'
 draft: false
 featuredImage: "images/zombdata.png"
-images: "images/zombdaya.png"
+images: "images/zombdata.png"
 
 ---
 
