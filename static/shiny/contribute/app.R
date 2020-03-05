@@ -141,7 +141,7 @@ server <- function(input, output) {
 	
 	observeEvent(input$send, {
 		contrib_data <- data.frame(
-			ContribDate    = now(),
+			ContribDate    = now(tzone = "Madrid"),
 			ContribEmail   = ifelse(is.null(input$ContribEmail), NA_integer_, input$ContribEmail),
 			ContribCountry = ifelse(is.null(input$ContribCountry), NA_integer_, input$ContribCountry),
 			Title          = ifelse(is.null(input$Title), NA_integer_, input$Title),

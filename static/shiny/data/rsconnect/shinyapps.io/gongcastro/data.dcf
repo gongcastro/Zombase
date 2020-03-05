@@ -5,6 +5,6 @@ account: gongcastro
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1863427
-bundleId: 2829714
+bundleId: 2842044
 url: https://gongcastro.shinyapps.io/data/
-when: 1582671385.23133
+when: 1583093091.79533

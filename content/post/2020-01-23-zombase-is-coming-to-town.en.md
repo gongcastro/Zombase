@@ -1,11 +1,11 @@
 ---
 title: Zombdata is coming to town
 author: Gonzalo Garcia-Castro
-date: '2020-01-23'
+date: '2020-03-04'
 slug: zombdata-is-coming-to-town
 categories: []
 tags: [blogpost, Zombdata]
-publishdate: '2020-03-10'
+publishdate: '2020-03-04'
 draft: false
 featuredImage: "images/zombdata.png"
 images: "images/zombdaya.png"
