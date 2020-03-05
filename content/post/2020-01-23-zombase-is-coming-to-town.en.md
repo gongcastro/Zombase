@@ -14,7 +14,7 @@ images: "images/zombdaya.png"
 
 Hi! In this first post I will tell you a bit about this project, and what to expect from it in the short and mid term.
 
-<center><img src="/images/zombdata.png" width="40%" style="float:right" margin="40px"></center>
+<center><img src="/images/logo.png" width="40%" style="float:right" margin="40px"></center>
 
 I love zombie-related material as much as I love making lists^[At 8 years I made a list of all cars I had seen, classified by brand, country, and year. I didn't even like cars]. Some time ago I started making a list of all zombie films I'd like to watch. The list kept growing and it started to become more of a database.
 
