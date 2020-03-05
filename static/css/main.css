@@ -355,3 +355,9 @@ code {
 	overflow-y: auto;
 	overflow-x: auto;
 }
+
+/* references */
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
