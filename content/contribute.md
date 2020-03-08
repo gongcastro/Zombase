@@ -7,4 +7,4 @@ output: html_document
 Below you will find matching entries in the database.
 Please make sure your contribution is novel!
 
-<div><center><iframe src="https://gongcastro.shinyapps.io/contribute/" width="1000" height="800" style="border:none"></iframe></center></div>
+<div class="container"><center><iframe src="https://gongcastro.shinyapps.io/contribute/" width="1000" height="800" style="border:none" scrolling="yes"></iframe></center></div>

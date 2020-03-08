@@ -416,7 +416,7 @@ code {
 }
 
 .container {
-    width: 980px;
+    width: 1000px;
     height: auto;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
