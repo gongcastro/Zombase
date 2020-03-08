@@ -56,17 +56,17 @@ code {
 .header {
   padding: 10% 0;
   background: #000000;
-  border-bottom: 15px solid #8a8a8a;
+  border-bottom: 5px solid #8a8a8a;
   max-width: 100%;
 }
 
 
 .nav {
-  height: 40px;	
-  max-width: 2000px;
+  height: 5%;	
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
-  font-size: 50px;
+  padding: 0 5%;
+  font-size: 20%;
   text-align: right;
 }
 
