@@ -87,7 +87,7 @@ code {
 .nav-logo img {
 	width: 20%;
 	height: 20%;
-	display: inline-flex;
+	display: inherit;
 	max-height: 20%;
 	border-radius: 60%;
 }
