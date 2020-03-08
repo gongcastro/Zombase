@@ -86,9 +86,9 @@ code {
 
 .nav-logo img {
 	float: left;
-	padding-top: 0%;
-	margin: 0% auto;
-	width: auto;
+	padding-top: 0;
+	margin: 0 auto;
+	width: 20%;
 	height: auto;
 	display: inherit;
 	max-height: 20%;
