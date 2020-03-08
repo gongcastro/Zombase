@@ -85,11 +85,11 @@ code {
 }
 
 .nav-logo img {
-	float: none;
+	float: left;
 	padding-top: 0%;
 	margin: 5% auto;
-	width: 20%;
-	height: 20%;
+	width: auto;
+	height: auto;
 	display: inherit;
 	max-height: 20%;
 	border-radius: 60%;
