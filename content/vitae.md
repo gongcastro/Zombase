@@ -19,7 +19,6 @@ ___
 
 <center>[gonzalo.garciadecastro@upf.edu](gonzalo.garciasdecastro@upf.edu)</center>
 
-___
 
 # Education
 
