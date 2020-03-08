@@ -93,7 +93,8 @@ code {
   	margin-top: -3%;
   	zoom: 1;
   	transition: transform 150ms ease-out;
-  	height: auto;
+  	height: 50%;
+  	width: 50%;
   	
   }
 }
