@@ -9,7 +9,8 @@ html,
 body {
   margin-left: 0;
   margin-right: 0;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   position: relative;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,6 +19,13 @@ body {
   background-color: #262626;
   color: #ffffff;
   max-width: 100%;
+}
+
+@media {
+	.body {
+		padding-right: 2%;
+		padding-left: 2%;
+	}
 }
 
 h1,
