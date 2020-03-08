@@ -71,6 +71,12 @@ code {
   text-align: right;
 }
 
+@media {
+  .nav {
+  	text-align: center;
+  }
+}
+
 /* main logo */
 .nav-logo {
   float: left;
