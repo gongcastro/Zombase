@@ -65,7 +65,9 @@ code {
 
 /* header rectangle*/
 .header {
-  padding: 5% 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
   background: #000000;
   border-bottom: 5px solid #8a8a8a;
   max-width: 100%;
@@ -92,7 +94,8 @@ code {
   	zoom: 1;
   	transition: transform 150ms ease-out;
   	height: auto;
-}
+  	
+  }
 }
 
 /* main logo */
