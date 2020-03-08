@@ -54,9 +54,9 @@ code {
 
 /* header rectangle*/
 .header {
-  padding: 40px 0;
+  padding: 10% 0;
   background: #000000;
-  border-bottom: 3px solid #8a8a8a;
+  border-bottom: 5% solid #8a8a8a;
   max-width: 100%;
 }
 
