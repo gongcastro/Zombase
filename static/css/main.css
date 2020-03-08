@@ -85,10 +85,10 @@ code {
 }
 
 .nav-logo img {
-	width: 200px;
-	height: 200px;
+	width: 20%;
+	height: 20%;
 	display: block;
-	max-height: 60px;
+	max-height: 10%;
 	border-radius: 60%;
 }
 
