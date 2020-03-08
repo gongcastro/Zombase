@@ -77,16 +77,24 @@ code {
   .nav {
   	text-align: center;
   }
+  .nav-logo {
+  	float: left;
+  	margin-top: -3%;
+  	zoom: 1;
+  	transition: transform 150ms ease-out;
+  	height: auto;
+  	vertical-align: central;
+}
 }
 
 /* main logo */
 .nav-logo {
-  float: left;
+  float: center;
   margin-top: -3%;
   zoom: 1;
   transition: transform 150ms ease-out;
   height: auto;
-  vertical-align: center;
+  vertical-align: central;
 }
 
 .nav-logo:hover {
