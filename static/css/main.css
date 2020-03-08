@@ -7,9 +7,9 @@ html,
 
 /* this changes main aspect of website*/
 body {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 0px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding: 0%;
   position: relative;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
   color: #c91812;
-  max-width: 700;
+  max-width: 100%;
 }
 
 a {
@@ -35,18 +35,18 @@ a {
 }
 
 p {
-  max-width: 800;
+  max-width: 100%;
 }
 
 code {
   background-color: #262626;
-  max-width: 1000px;
+  max-width: 100%;
 }
 
 .wrapper {
   overflow: hidden;
   position: relative;
-  max-width: 2000px;
+  max-width: 100%;
 }
 
 
