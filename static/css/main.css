@@ -85,6 +85,9 @@ code {
 }
 
 .nav-logo img {
+	float: none;
+	padding-top: 0%;
+	margin: 5% auto;
 	width: 20%;
 	height: 20%;
 	display: inherit;
