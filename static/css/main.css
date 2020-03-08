@@ -414,3 +414,10 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.container {
+    width: 980px;
+    height: auto;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
