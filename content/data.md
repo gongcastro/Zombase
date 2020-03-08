@@ -6,5 +6,5 @@ output: html_document
 
 Can't find what you are looking for? **[Contribute](https://zombdata.netlify.com/contribute/) to the database!**
 
-<div><center><iframe src="https://gongcastro.shinyapps.io/data/" width="100%" height="100%" style="border:none"></iframe></center></div>
+<div><center><iframe src="https://gongcastro.shinyapps.io/data/" width="1000" height="1000" style="border:none"></iframe></center></div>
 
