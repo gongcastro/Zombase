@@ -84,26 +84,24 @@ code {
 
 @media {
   .nav {
-  	text-align: center;
+  	text-align: left;
   }
   .nav-logo {
-  	float: left;
+  	float: right;
   	margin-top: -3%;
   	zoom: 1;
   	transition: transform 150ms ease-out;
   	height: auto;
-  	vertical-align: central;
 }
 }
 
 /* main logo */
 .nav-logo {
-  float: left;
+  float: right;
   margin-top: -3%;
   zoom: 1;
   transition: transform 150ms ease-out;
   height: auto;
-  vertical-align: central;
 }
 
 .nav-logo:hover {
