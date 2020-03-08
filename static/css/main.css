@@ -7,8 +7,8 @@ html,
 
 /* this changes main aspect of website*/
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0px;
   position: relative;
   text-rendering: optimizeLegibility;
