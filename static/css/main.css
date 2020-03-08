@@ -30,11 +30,9 @@ h6 {
   max-width: 100%;
 }
 
-a {
+/* links */
+a:focus {
   outline: none;
-  max-width: 100%;
-  margin-right: 20%;
-  margin-left: 20%;
 }
 
 p {
