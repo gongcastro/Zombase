@@ -148,8 +148,8 @@ code {
 }
 
 .nav-links li:first-child {
-  margin-left: 0%;
   text-align: left;
+  padding-right: -40%;
 }
 
 .nav-links a {
