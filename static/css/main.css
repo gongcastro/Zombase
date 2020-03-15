@@ -135,8 +135,8 @@ code {
 }
 
 .nav-links {
-  margin: 0;
-  padding: 10%;
+  margin: 10%;
+  padding: 0;
   font-size: 100%;
   white-space: nowrap;
   list-style: none;
