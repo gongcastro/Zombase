@@ -9,7 +9,7 @@ output: html_document
 
 <center><img src="/images/logo.png" width="40%" style="float:right" margin="10%"></center>
 
-# Who is behing **Zombdata**?
+# Who is behind **Zombdata**?
 
 I am gonzalo García-Castro, a researcher at [**Center for Brain and Cognition**](http://upf.com/cbc) at Universitat Pompeu Fabra (Barcelona, Spain). I spend most of my time doing my PhD in developmental psycholinguistics. My researh is mostly focused on how babies acquire language, with a especial focus on bilingualism. If you are interested in what I should probably be doing instead of wrting these lines, you can visit my personal website ([gongcastro.github.io](gongcastro.github.io)).
 
