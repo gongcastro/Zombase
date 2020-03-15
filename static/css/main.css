@@ -128,13 +128,13 @@ code {
 .nav-links {
   margin: 0;
   padding: 0;
-  font-size: 50%;
+  font-size: 100%;
   list-style: none;
 }
 
 .nav-links li {
   display: inline-block;
-  margin: 0 0 0 30%;
+  margin: 0 0 0 10%;
 }
 
 .nav-links li:first-child {
