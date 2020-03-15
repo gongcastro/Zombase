@@ -141,7 +141,7 @@ code {
 }
 
 .nav-links li {
-  display: inline-block;
+  display: block;
   text-align: left;
 }
 
