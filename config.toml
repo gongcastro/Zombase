@@ -8,8 +8,6 @@ ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
 coverImage = "images/zombdata.png"
 customCSS = ["css/main.css"]
 
-
-
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
