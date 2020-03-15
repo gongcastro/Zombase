@@ -137,7 +137,7 @@ code {
 .nav-links {
   margin: 0;
   font-size: 100%;
-  text-align: left;
+  text-align: right;
   list-style: none;
 }
 
@@ -147,7 +147,7 @@ code {
 }
 
 .nav-links li:first-child {
-  text-align: left;
+  text-align: right;
   margin-right: 5%;
 }
 
