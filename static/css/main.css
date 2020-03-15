@@ -104,6 +104,7 @@ code {
   	padding-right: 0%;
   	font-size: 80%;
   	list-style: none;
+  	display: block;
   	
   }
 }
