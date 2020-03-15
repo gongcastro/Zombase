@@ -106,8 +106,8 @@ code {
 	margin-top: -70%;
 	zoom: 2;
 	transition: transform 150ms ease-out;
-	height: 120%;
-	width: 120%;
+	height: 100%;
+	width: 100%;
 }
 
 .nav-logo:hover {
@@ -176,7 +176,8 @@ code {
 }
 
 .article-date {
-  color: #000000;
+	margin-top: 10%;
+	color: #000000;
 }
 
 .article-duration {
