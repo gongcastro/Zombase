@@ -87,7 +87,7 @@ code {
 
 @media {
   .nav {
-  	text-align: right;
+  	text-align: left;
   }
   .nav-logo {
   	float: left;
@@ -140,22 +140,26 @@ code {
   padding-left: -100%;
   font-size: 100%;
   white-space: nowrap;
+  text-align: left;
   list-style: none;
 }
 
 .nav-links li {
   display: inline-block;
+  text-align: left;
   margin: 0;
 }
 
 .nav-links li:first-child {
   margin-left: 0%;
+  text-align: left;
   padding-right: 20%;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #c7120c;
+  text-align: left;
   transition: transform 150ms ease-out;
   font-size: 40px;
 }
