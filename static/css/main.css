@@ -87,7 +87,7 @@ code {
 
 @media {
   .nav {
-  	text-align: center;
+  	text-align: right;
   }
   .nav-logo {
   	float: left;
@@ -100,8 +100,8 @@ code {
   .nav-links {
   	margin: 0;
   	padding: 0;
-  	padding-left: 100%;
-  	padding-right:10%;
+  	padding-left: 0%;
+  	padding-right: 0%;
   	font-size: 80%;
   	list-style: none;
   	
