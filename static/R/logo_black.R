@@ -28,8 +28,8 @@ plot <- ggplot(data, aes(x, y)) +
 	scale_fill_gradientn(colors = c("black", "red")) +
 	coord_polar() +
 	theme(
-		panel.background = element_rect(fill = "transparent"),
-		plot.background = element_rect(fill = "transparent"),
+		panel.background = element_rect(fill = "black"),
+		plot.background = element_rect(fill = "black"),
 		panel.border = element_blank(),
 		panel.grid = element_blank(),
 		legend.position = "none",
@@ -56,6 +56,6 @@ sticker(
 	h_fill = "black",
 	h_color = "red",
 	dpi = 200,
-	filename = here("static", "images", "zombdata.png")
+	filename = here("static", "images", "zombdata_black.png")
 )
 
