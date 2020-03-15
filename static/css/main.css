@@ -141,8 +141,9 @@ code {
 }
 
 .nav-links li {
+  display: inline-block;
   text-align: left;
-  margin: 0;
+  margin-left: -10%;
 }
 
 .nav-links li:first-child {
