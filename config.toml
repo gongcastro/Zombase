@@ -30,17 +30,13 @@ customCSS = ["css/main.css"]
     url = "https://github.com/gongcastro/Zombdata"
     weight = 4
 [[menu.main]]
-    name = "CV"
-    url = "/vitae/"
-    weight = 5
-[[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 6
 
 
 [params]
-    description = "Zombies, RStats, and some actual research on developmental psycholinguistics"
+    description = "Zombies, data, RStats, and some dataviz!"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
