@@ -106,8 +106,8 @@ code {
 	margin-top: -70%;
 	zoom: 2;
 	transition: transform 150ms ease-out;
-	height: 80%;
-	width: 80%;
+	height: 50%;
+	width: 50%;
 }
 
 .nav-logo:hover {
@@ -117,7 +117,7 @@ code {
 .nav-logo img {
 	float: left;
 	padding-top: 5%;
-	padding-left: 10%;
+	padding-left: 5%;
 	margin: 0 auto;
 	width: 30%;
 	height: auto;
