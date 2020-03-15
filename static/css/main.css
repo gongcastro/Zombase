@@ -96,6 +96,14 @@ code {
   	transition: transform 150ms ease-out;
   	height: 50%;
   	width: 50%;
+  }
+  .nav-links {
+  	margin: 0;
+  	padding: 0;
+  	padding-left: -10%;
+  	padding-right:10%;
+  	font-size: 80%;
+  	list-style: none;
   	
   }
 }
