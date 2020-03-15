@@ -103,7 +103,6 @@ code {
   	padding-left: -10%;
   	padding-right:10%;
   	font-size: 80%;
-  	white-space: nowrap;
   	list-style: none;
   	
   }
@@ -141,6 +140,7 @@ code {
   padding-left: -10%;
   padding-right:10%;
   font-size: 100%;
+  white-space: nowrap;
   list-style: none;
 }
 
