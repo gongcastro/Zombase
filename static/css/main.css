@@ -136,9 +136,7 @@ code {
 
 .nav-links {
   margin: 0;
-  padding: 0;
-  padding-left: -100%;
-  padding-right: 100%;
+  padding: 10%;
   font-size: 100%;
   white-space: nowrap;
   list-style: none;
