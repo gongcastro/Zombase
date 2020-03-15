@@ -149,8 +149,8 @@ code {
 }
 
 .nav-links li:first-child {
-  margin-left: 100%;
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .nav-links a {
