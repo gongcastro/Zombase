@@ -106,8 +106,8 @@ code {
 	margin-top: -70%;
 	zoom: 2;
 	transition: transform 150ms ease-out;
-	height: 50%;
-	width: 50%;
+	height: 120%;
+	width: 120%;
 }
 
 .nav-logo:hover {
