@@ -129,6 +129,7 @@ code {
 .nav-links {
   margin: 0;
   padding: 0;
+  padding-right:10%;
   font-size: 100%;
   list-style: none;
 }
