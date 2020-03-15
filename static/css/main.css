@@ -45,8 +45,8 @@ a:focus {
 
 p {
   max-width: 100%;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 code {
@@ -101,7 +101,7 @@ code {
 
 /* main logo */
 .nav-logo {
-	float: right;
+	float: left;
 	margin-top: -3%;
 	zoom: 1;
 	transition: transform 150ms ease-out;
