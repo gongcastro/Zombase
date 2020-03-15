@@ -11,7 +11,7 @@ output: html_document
 
 # Who is behind **Zombdata**?
 
-I am Gonzalo García-Castro, a researcher at [**Center for Brain and Cognition**](http://upf.com/cbc) at Universitat Pompeu Fabra (Barcelona, Spain). I spend most of my time doing my PhD in developmental psycholinguistics. My researh is mostly focused on how babies acquire language, with a especial focus on bilingualism. If you are interested in what I should probably be doing instead of wrting these lines, you can visit my personal website ([gongcastro.github.io](gongcastro.github.io)).
+I am Gonzalo García-Castro, a researcher at [**Center for Brain and Cognition**](http://upf.com/cbc) at Universitat Pompeu Fabra (Barcelona, Spain). I spend most of my time doing my PhD in developmental psycholinguistics. My researh is mostly focused on how babies acquire language, with a especial focus on bilingualism. If you are interested in what I should probably be doing instead of writing these lines, you can visit my personal website ([gongcastro.github.io](gongcastro.github.io)).
 
 # Where does **Zombdata** come from?
 
