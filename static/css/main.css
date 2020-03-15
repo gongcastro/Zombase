@@ -124,7 +124,7 @@ code {
 
 .nav-logo img {
 	float: left;
-	padding-top: 5%;
+	padding-top: 2%;
 	padding-left: 5%;
 	margin: 0 auto;
 	width: 30%;
@@ -146,7 +146,7 @@ code {
 
 .nav-links li {
   display: inline-block;
-  margin: 0 0 0 10%;
+  margin: 0 0 0 15%;
 }
 
 .nav-links li:first-child {
