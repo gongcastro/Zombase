@@ -149,7 +149,7 @@ code {
 
 .nav-links li:first-child {
   text-align: left;
-  padding-right: -40%;
+  padding-right: 50%;
 }
 
 .nav-links a {
