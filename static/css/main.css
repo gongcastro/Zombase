@@ -149,7 +149,7 @@ code {
 }
 
 .nav-links li:first-child {
-  margin-left: -300%;
+  margin-left: 0;
 }
 
 .nav-links a {
