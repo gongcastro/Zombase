@@ -137,7 +137,7 @@ code {
 
 .nav-links {
   margin: 0;
-  padding-left: -100px;
+  padding-left: -100%;
   font-size: 100%;
   white-space: nowrap;
   list-style: none;
@@ -149,7 +149,7 @@ code {
 }
 
 .nav-links li:first-child {
-  margin-left: -150%;
+  margin-left: -100%;
 }
 
 .nav-links a {
