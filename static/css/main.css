@@ -102,7 +102,7 @@ code {
 /* main logo */
 .nav-logo {
 	float: left;
-	margin-top: 5%;
+	margin-top: -15%;
 	zoom: 2;
 	transition: transform 150ms ease-out;
 	height: 100%;
