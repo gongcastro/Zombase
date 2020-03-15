@@ -136,12 +136,12 @@ code {
 .nav-links {
   margin: 0;
   font-size: 100%;
-  white-space: nowrap;
   text-align: left;
   list-style: none;
 }
 
 .nav-links li {
+  display: inline-block;
   text-align: left;
   margin: 0;
 }
