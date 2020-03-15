@@ -116,7 +116,7 @@ code {
 
 .nav-logo img {
 	float: left;
-	padding-top: 0;
+	padding-top: 20%;
 	margin: 0 auto;
 	width: 20%;
 	height: auto;
@@ -145,7 +145,7 @@ code {
   text-decoration: none;
   color: #c7120c;
   transition: transform 150ms ease-out;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .nav-links a:hover {
