@@ -86,10 +86,10 @@ code {
 
 @media {
   .nav {
-  	text-align: left;
+  	text-align: right;
   }
   .nav-logo {
-  	float: right;
+  	float: left;
   	margin-top: -3%;
   	zoom: 1;
   	transition: transform 150ms ease-out;
