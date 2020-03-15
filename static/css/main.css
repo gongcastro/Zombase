@@ -143,7 +143,6 @@ code {
 .nav-links li {
   display: inline-block;
   text-align: left;
-  padding-left: -10%;
 }
 
 .nav-links li:first-child {
