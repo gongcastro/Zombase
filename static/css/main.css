@@ -141,7 +141,6 @@ code {
 }
 
 .nav-links li {
-  display: inline-block;
   text-align: left;
   margin: 0;
 }
