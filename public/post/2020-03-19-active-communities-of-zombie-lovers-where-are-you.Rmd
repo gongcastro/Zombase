@@ -10,7 +10,7 @@ tags:
   - rstats
 ---
 
-```{r setup}
+```{r setup, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 knitr::opts_chunk$set(
 	message = FALSE,
 	warning = FALSE,
