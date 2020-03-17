@@ -1,10 +1,11 @@
 ---
-title: "Zombase database"
+title: "Zombdata"
 date: "Updated: `r format(Sys.Date(), '%B %dth, %Y')`"
 output: html_document
 ---
 
 # What is **Zombdata**?
+
 **Zombdata** is a database of zombie-related material. It hosts more than 1,400 entries of films, TV shows, videogames, novels, documentaries, press, scientific literature, among others. Each entry includes information about the country it was developed in, its publication/releasing data, author(s), and much more.
 
 <center><img src="/images/logo.png" width="40%" style="float:right" margin="10%"></center>
