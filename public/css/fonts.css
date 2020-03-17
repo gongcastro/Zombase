@@ -1,0 +1,27 @@
+/* FONTS */
+
+/* fira-sans-condensed-regular - latin */
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Condensed Regular'), local('FiraSansCondensed-Regular'),
+       url('../fonts/fira-sans-condensed-v4-latin-regular.woff2') format('woff2'),
+       url('../fonts/fira-sans-condensed-v4-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bangers Regular'), local('Bangers-Regular'),
+       url('../fonts/bangers-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/bangers-v12-latin-regular.woff') format('woff'); /* Modern Browsers */
+}
+
+body, h4, h5, h6, .archive-item-link {
+  font-family: 'Fira Sans Condensed', serif;
+}
+h1, h2, h3, .nav, .article-duration, .footer {
+  font-family: 'Bangers';
+}

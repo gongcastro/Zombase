@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Zombdata</title>
+    <link>https://zombdata.netlify.com/tags/</link>
+    <description>Recent content in Tags on Zombdata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zombdata.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>dataviz</title>
+      <link>https://zombdata.netlify.com/tags/dataviz/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zombdata.netlify.com/tags/dataviz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats</title>
+      <link>https://zombdata.netlify.com/tags/rstats/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zombdata.netlify.com/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zombdata</title>
+      <link>https://zombdata.netlify.com/tags/zombdata/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zombdata.netlify.com/tags/zombdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogpost</title>
+      <link>https://zombdata.netlify.com/tags/blogpost/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zombdata.netlify.com/tags/blogpost/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
