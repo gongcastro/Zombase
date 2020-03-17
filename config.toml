@@ -4,7 +4,7 @@ title = "Zombdata"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["_files$", "_cache$"]
 coverImage = "images/zombdata.png"
 customCSS = ["css/main.css"]
 
