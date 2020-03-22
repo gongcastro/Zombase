@@ -36,7 +36,7 @@ h5,
 h6 {
   color: #c91812;
   max-width: 100%;
-  text-shadow: -1.25px 0 #808080, 0 -1.25px #808080, -1.25px 0 #808080, 0 -1.25px #808080;
+  text-shadow: -2px 0 #561313, 0 -2px #561313, -2px 0 #561313, 0 -2px #561313;
 }
 
 /* links */
@@ -117,7 +117,7 @@ code {
   padding-right: 0;
   font-size: 100%;
   text-align: left;
-  text-shadow: -1.5px 0 #808080, 0 -1.5px #808080, -1.5px 0 #808080, 0 -1.5px #808080;
+  text-shadow: -1.5px 0 #561313, 0 -1.5px #561313, -1.5px 0 #561313, 0 -1.5px #561313;
   list-style: none;
 }
 

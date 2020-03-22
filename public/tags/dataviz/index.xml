@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dataviz on Zombdata</title>
-    <link>https://zombdata.netlify.com/tags/dataviz/</link>
+    <link>/tags/dataviz/</link>
     <description>Recent content in dataviz on Zombdata</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zombdata.netlify.com/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Active communities of zombie-lovers: Where are you?</title>
-      <link>https://zombdata.netlify.com/2020/03/16/active-communities-of-zombie-lovers-where-are-you/</link>
-      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      <link>/2020/04/01/active-communities-of-zombie-lovers-where-are-you/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zombdata.netlify.com/2020/03/16/active-communities-of-zombie-lovers-where-are-you/</guid>
+      <guid>/2020/04/01/active-communities-of-zombie-lovers-where-are-you/</guid>
       <description>    The aim of this post if to provide a first glimpse into what Zombdata looks like. We will focus on describing the spatial location of the main sources of zombie-related material. The analysis here presented are updated every day!
 Where are the creators?  </description>
     </item>

@@ -36,6 +36,7 @@ h5,
 h6 {
   color: #c91812;
   max-width: 100%;
+  text-shadow: -2px 0 #561313, 0 -2px #561313, -2px 0 #561313, 0 -2px #561313;
 }
 
 /* links */
@@ -85,29 +86,6 @@ code {
   font-size: 100%;
 }
 
-@media {
-  .nav {
-  	text-align: left;
-  }
-  .nav-logo {
-  	float: left;
-  	margin-top: -3%;
-  	zoom: 1;
-  	transition: transform 150ms ease-out;
-  	height: 50%;
-  	width: 50%;
-  }
-  .nav-links {
-  	margin: 0;
-  	padding: 0;
-  	font-size: 80%;
-  	list-style: none;
-  	text-align: right;
-  	display: block;
-  	
-  }
-}
-
 /* main logo */
 .nav-logo {
 	float: left;
@@ -136,8 +114,10 @@ code {
 
 .nav-links {
   margin: 0;
+  padding-right: 0;
   font-size: 100%;
   text-align: left;
+  text-shadow: -1.5px 0 #561313, 0 -1.5px #561313, -1.5px 0 #561313, 0 -1.5px #561313;
   list-style: none;
 }
 
@@ -435,4 +415,51 @@ code {
     height: auto;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+/* MOBILE DEVICES */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+
+@media only screen {
+
+  .nav{
+  	text-align: left;
+  }
+  .nav-logo {
+  	float: left;
+  	margin-top: -3%;
+  	zoom: 1;
+  	transition: transform 150ms ease-out;
+  	height: 50%;
+  	width: 50%;
+  }
+  
+  .nav-links {
+  	margin: 0;
+  	margin-top: 2.5%;
+  	margin-right: -20%;
+  	margin-right: 5%;
+  	padding-right: 0;
+  	padding: 0;
+  	font-size: 80%;
+  	list-style: none;
+  	text-align: right;
+  	display: block;
+  }
+  
+  .wrapper {
+  position: relative;
+  overflow: auto;
+  	
+  }
+
+.content {
+  position: relative;
+}
+
 }

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zombdata</title>
-    <link>https://zombdata.netlify.com/tags/zombdata/</link>
+    <link>/tags/zombdata/</link>
     <description>Recent content on Zombdata</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zombdata.netlify.com/tags/zombdata/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/zombdata/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Active communities of zombie-lovers: Where are you?</title>
-      <link>https://zombdata.netlify.com/2020/03/16/active-communities-of-zombie-lovers-where-are-you/</link>
-      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      <link>/2020/04/01/active-communities-of-zombie-lovers-where-are-you/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zombdata.netlify.com/2020/03/16/active-communities-of-zombie-lovers-where-are-you/</guid>
+      <guid>/2020/04/01/active-communities-of-zombie-lovers-where-are-you/</guid>
       <description>    The aim of this post if to provide a first glimpse into what Zombdata looks like. We will focus on describing the spatial location of the main sources of zombie-related material. The analysis here presented are updated every day!
 Where are the creators?  </description>
     </item>
     
     <item>
       <title>Zombdata is coming to town</title>
-      <link>https://zombdata.netlify.com/2020/03/04/zombdata-is-coming-to-town/</link>
+      <link>/2020/03/04/zombdata-is-coming-to-town/</link>
       <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zombdata.netlify.com/2020/03/04/zombdata-is-coming-to-town/</guid>
+      <guid>/2020/03/04/zombdata-is-coming-to-town/</guid>
       <description>Hi! In this first post I will tell you a bit about this project, and what to expect from it in the short and mid term.
 I love zombie-related material as much as I love making lists^[At 8 years I made a list of all cars I had seen, classified by brand, country, and year. I didn&#39;t even like cars]. Some time ago I started making a list of all zombie films I&#39;d like to watch.</description>
     </item>
