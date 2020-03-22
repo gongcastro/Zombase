@@ -452,7 +452,7 @@ code {
   }
 
 .content {
-  position: absolute;
+  position: relative;
   width: 30000px;
   height: 30000px;
 }
