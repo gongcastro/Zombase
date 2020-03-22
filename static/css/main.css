@@ -36,7 +36,7 @@ h5,
 h6 {
   color: #c91812;
   max-width: 100%;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1.25px 0 black, 0 -1.25px black, -1.25px 0 black, 0 -1.25px black;
 }
 
 /* links */
@@ -117,6 +117,7 @@ code {
   padding-right: 0;
   font-size: 100%;
   text-align: left;
+  text-shadow: -1.25px 0 white, 0 -1.25px white, -1.25px 0 white, 0 -1.25px white;
   list-style: none;
 }
 
