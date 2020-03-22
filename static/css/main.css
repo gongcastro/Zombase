@@ -113,7 +113,7 @@ code {
 
 .nav-links {
   margin: 0;
-  padding-right: 10%;
+  padding-right: 0;
   font-size: 100%;
   text-align: left;
   list-style: none;
@@ -439,7 +439,7 @@ code {
   
   .nav-links {
   	margin: 0;
-  	padding: 0;
+  	padding: 30%;
   	font-size: 80%;
   	list-style: none;
   	text-align: right;
