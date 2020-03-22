@@ -1,7 +1,7 @@
 ---
 title: 'Active communities of zombie-lovers: Where are you?'
 author: Gonzalo García-Castro
-date: '2020-03-16'
+date: '2020-04-01'
 slug: active-communities-of-zombie-lovers-where-are-you
 categories: []
 tags:
