@@ -85,7 +85,7 @@ code {
   font-size: 100%;
 }
 
-@media {
+@media only screen {
   .nav {
   	text-align: left;
   }
