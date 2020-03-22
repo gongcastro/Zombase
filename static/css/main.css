@@ -104,8 +104,19 @@ code {
   	list-style: none;
   	text-align: right;
   	display: block;
+  }
+  
+  .wrapper {
+  position: relative;
+  overflow: auto;
   	
   }
+
+.content {
+  position: absolute;
+  width: 30000px;
+}
+
 }
 
 /* main logo */
