@@ -36,6 +36,7 @@ h5,
 h6 {
   color: #c91812;
   max-width: 100%;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 /* links */
