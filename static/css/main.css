@@ -112,7 +112,8 @@ code {
 }
 
 .nav-links {
-  margin: 50px;
+  margin: 0;
+  padding-right: 10%;
   font-size: 100%;
   text-align: left;
   list-style: none;
