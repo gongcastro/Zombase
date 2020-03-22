@@ -85,40 +85,6 @@ code {
   font-size: 100%;
 }
 
-@media only screen {
-  .nav {
-  	text-align: left;
-  }
-  .nav-logo {
-  	float: left;
-  	margin-top: -3%;
-  	zoom: 1;
-  	transition: transform 150ms ease-out;
-  	height: 50%;
-  	width: 50%;
-  }
-  .nav-links {
-  	margin: 0;
-  	padding: 0;
-  	font-size: 80%;
-  	list-style: none;
-  	text-align: right;
-  	display: block;
-  }
-  
-  .wrapper {
-  position: relative;
-  overflow: auto;
-  	
-  }
-
-.content {
-  position: absolute;
-  width: 30000px;
-}
-
-}
-
 /* main logo */
 .nav-logo {
 	float: left;
@@ -446,4 +412,49 @@ code {
     height: auto;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+/* MOBILE DEVICES */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+
+@media only screen {
+
+  .nav{
+  	text-align: left;
+  }
+  .nav-logo {
+  	float: left;
+  	margin-top: -3%;
+  	zoom: 1;
+  	transition: transform 150ms ease-out;
+  	height: 50%;
+  	width: 50%;
+  }
+  
+  .nav-links {
+  	margin: 0;
+  	padding: 0;
+  	font-size: 80%;
+  	list-style: none;
+  	text-align: right;
+  	display: block;
+  }
+  
+  .wrapper {
+  position: relative;
+  overflow: auto;
+  	
+  }
+
+.content {
+  position: absolute;
+  width: 30000px;
+  height: 30000px;
+}
+
 }
