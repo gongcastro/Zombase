@@ -27,13 +27,14 @@ library(magrittr)
 library(dplyr)
 library(tidyr)
 library(purrr)
+library(stringr)
+library(forcats)
 library(ggplot2)
-library(colormap)
-library(sf)
+library(maps)
 library(googlesheets4)
-library(ggiraph)
-library(widgetframe)
-library(showtext)
+library(sysfonts)
+library(gganimate)
+library(ggthemes)
 library(here)
 
 # get credentials
@@ -52,12 +53,9 @@ sheets_auth(
 # load fonts
 font_add_google("Bangers", "bangers")
 fira <- font_add_google("Fira Sans Condensed", "fira")
-showtext_auto()
 
 # load data
 zombdata <- sheets_read("1NScfQetZxxVcX5hlrTU-37yd-Pdm86As0f6q78884Z8")
-coords <- map_data("world")
-data <- full_join(zombdata, coords, by = c("Country" = "region"))
 
 ```
 
@@ -68,45 +66,56 @@ The aim of this post if to provide a first glimpse into what Zombdata looks like
 
 ```{r fig_map, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 
-d <- zombdata %>%
-	group_by(Country) %>%
-	summarise(counts = n()) %>%
-	rename(region = Country) %>%
-	full_join(coords) %>%
-	left_join(., summarize(group_by(., region), center_long = mean(range(long)), center_lat = mean(range(lat))))
+world <- map_data("world")
+cities <- world.cities %>% select(name, country, pop, lat_city, long_city) %>% as_tibble()
+	
+data <- zombdata %>%
+	rename_all(str_to_lower) %>%
+	group_by(country) %>%
+	arrange(country, year) %>%
+	mutate(score = 1,
+		   counts = cumsum(lag(score, default = 0) + 1),
+		   country = factor(country, levels = unique(.$country[order(counts)]))
+		   ) %>%
+	ungroup()
 
-labels <- d %>% distinct(region, counts, center_long, center_lat)
+
+data %>%
+	ggplot(aes(x = country, y = log(counts))) +
+	geom_bar(stat = "identity", width = 0.5) +
+	labs(x = "Country", y = "Counts", title = "Year") +
+	coord_flip() +
+	transition_time(year, range = c(min(data$year, na.rm = TRUE), max(data$year, na.rm = TRUE))) +
+	ease_aes("linear")
+	
 
 
-
-plot_map <- ggplot(d, aes(fill = log(counts),
-						  map_id = region,
-						  tooltip = sprintf("Country: %s<br>Counts: %s", region, counts))) +
-	geom_map_interactive(map = coords, colour = NA, alpha = 0.7) +
-	expand_limits(x = coords$long, y = coords$lat) +
+ggplot(data = data) +
+	borders("world", colour = "gray85", fill = "gray80") +
+	geom_point(data = cities, aes(x = long_city, y = lat_city)) 
 	labs(title = "Geospatial location of zombie-related material creators",
 		 subtitle = "Films, TV shows, videgames, etc. are piled up.",
 		 fill = "Counts (Log scale)") +
-	scale_fill_colormap(colormap = "inferno") +
 	theme(
 		panel.grid = element_blank(),
-		panel.background = element_rect(fill = "transparent"),
-		text = element_text(family = "fira"),
+		panel.background = element_rect(fill = "black"),
+		plot.background = element_rect(fill = "black"),
+		text = element_text(family = "fira", colour = "white"),
 		axis.text = element_blank(),
-		axis.title = element_blank(),
+		axis.line = element_blank(),
 		axis.ticks = element_blank(),
-		legend.position = c(0.1, 0.4)
+		panel.border = element_blank(),
+		axis.title = element_blank(),
+		legend.position = c(0.1, 0.4),
+		legend.background = element_rect(fill = "black", colour = "black")
 	) +
-	ggsave(here("static", "images", "post_2020-03-19_map.png"))
 
-frameWidget(
-	girafe(ggobj = plot_map,
-		   fonts = list(fira),
-		   options = list(
-		   	opts_tooltip(css = "background-color:black,color:white")
-		   	)
-	)
-)
+	
+
+
+
+
+ggsave(here("static", "images", "post_2020-03-19_map.png"))
 
 
 ```

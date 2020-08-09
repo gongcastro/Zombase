@@ -10,7 +10,6 @@ library(shinyalert)
 library(DT)
 library(dplyr)
 library(maps)
-library(googledrive)
 library(rlang)
 library(googlesheets4)
 library(lubridate)
@@ -44,15 +43,21 @@ ui <- fluidPage(title = "Contribution",
 					
 					column(width = 3,
 						   wellPanel(
+						   	shiny::helpText("Filling this information not mandatory, but we'd like to acknowledge your contribution."),
 						   	textInput(inputId = "ContribEmail",
 						   			  label = "Your email",
 						   			  value = NA_integer_,
 						   			  placeholder = "your@email.com"),
+						   	textInput(inputId = "ContribTwitter",
+						   			  label = "Your Twitter handle:",
+						   			  value = NA_integer_,
+						   			  placeholder = "@"),
 						   	selectInput(inputId = "ContribCountry",
 						   				label = "Your country",
 						   				choices = country_list,
 						   				selectize = TRUE,
-						   				multiple = FALSE),
+						   				multiple = FALSE,
+						   				selected = sample(country_list, 1)),
 						   ), 
 					),
 					
@@ -80,13 +85,15 @@ ui <- fluidPage(title = "Contribution",
 						   helpText("Please provide author names separated by a forward slash (/)"),
 						   textInput(inputId = "IMDBLink",
 						   		  label = "IMDB link",
-						   		  value = "")
+						   		  value = ""),
+						   helpText(a("imdb.com", href = "https://www.imdb.com/", target = "_blank"))
 					),
 					column(width = 3,
-						   radioButtons(inputId = "Type",
-						   			 label = "Type",
-						   			 choices = c("Film", "Series", "Novel", "Academic", "Documentary", "Video game"),
-						   			 inline = TRUE),
+						   selectInput(inputId = "Type",
+						   			label = "Type",
+						   			choices = c("Film", "TV show", "Novel", "Academic", "Documentary", "Video game"),
+						   			selectize = TRUE,
+						   			multiple = FALSE),
 						   numericInput(inputId = "Budget",
 						   			 label = "Budget ($)",
 						   			 value = NA_real_,
@@ -141,13 +148,14 @@ server <- function(input, output) {
 	
 	observeEvent(input$send, {
 		contrib_data <- data.frame(
-			ContribDate    = now(tzone = "Madrid"),
+			ContribDate    = now(),
 			ContribEmail   = ifelse(is.null(input$ContribEmail), NA_integer_, input$ContribEmail),
+			ContribTwitter = ifelse(is.null(input$ContribTwitter), NA_integer_, input$ContribTwitter),
 			ContribCountry = ifelse(is.null(input$ContribCountry), NA_integer_, input$ContribCountry),
 			Title          = ifelse(is.null(input$Title), NA_integer_, input$Title),
 			Type           = ifelse(is.null(input$Type), NA_integer_, input$Type),
-			Date           = ifelse(is.null(input$Date), NA_integer_, input$Date),
 			Author         = ifelse(is.null(input$Author), NA_integer_, input$Author),
+			Date           = ifelse(is.null(input$Date), NA_integer_, dmy(as_date((input$Date)))),
 			Country        = ifelse(is.null(input$Country), NA_integer_, input$Country),
 			Budget         = ifelse(is.null(input$Budget), NA_integer_, input$Budget),
 			Box            = ifelse(is.null(input$Box), NA_integer_, input$Box),
@@ -155,7 +163,7 @@ server <- function(input, output) {
 			Producer       = ifelse(is.null(input$Producer), NA_integer_, input$Producer),
 			IMDBLink       = ifelse(is.null(input$IMDBLink), NA_integer_, input$IMDBLink)
 		)
-		sheets_append(ss = "1XHYJN8jo2rAoHwzG1GHQRbWvmhwwGxL3q89yVmlStw0", data = contrib_data)
+		sheet_append(ss = "1XHYJN8jo2rAoHwzG1GHQRbWvmhwwGxL3q89yVmlStw0", data = contrib_data)
 		shinyalert("Saved", "Thank you for you contribution!", type = "success")
 		
 	})
@@ -164,3 +172,4 @@ server <- function(input, output) {
 
 #### run app ####################################
 shinyApp(ui = ui, server = server)
+
